@@ -1,0 +1,53 @@
+$nav-background-color: #616161
+$nav-text-color:#bbbbbb
+$nav-hover-color: #ffffff
+$nav-active-color: #ffffff
+$body-bg-color-start: #121212
+$body-bg-color-end: #3f3f3f
+$degrees: 165deg
+
+body
+    background-color: linear-gradient($degrees, $body-bg-color-start, $body-bg-color-end)
+    background: -webkit-linear-gradient($degrees, $body-bg-color-start, $body-bg-color-end) // For Safari/Chrome
+    background: -moz-linear-gradient($degrees, $body-bg-color-start, $body-bg-color-end) // For Firefox
+    background: linear-gradient($degrees, $body-bg-color-start, $body-bg-color-end) // Standard
+
+.modal-background-body
+    background-color: linear-gradient($degrees, $body-bg-color-start, $body-bg-color-end)
+    background: -webkit-linear-gradient($degrees, $body-bg-color-start, $body-bg-color-end) // For Safari/Chrome
+    background: -moz-linear-gradient($degrees, $body-bg-color-start, $body-bg-color-end) // For Firefox
+    background: linear-gradient($degrees, $body-bg-color-start, $body-bg-color-end) // Standard
+
+/* Highlight row on hover */
+.selectable-row
+    &:hover
+        --bs-table-bg:#434343 !important
+        --bs-table-striped-bg: #434343 !important
+
+.first-letter-cap
+    text-transform: lowercase
+    &::first-letter
+        text-transform: uppercase
+    
+
+.nav-bg-color 
+    background-color: $nav-background-color
+    
+
+.nav-text
+    color: $nav-text-color
+    padding: 5
+    font-size: 1rem
+    font-weight: bold
+    text-decoration: none
+    &:hover
+        color: $nav-hover-color
+    &.active
+        color: $nav-active-color !important
+
+
+.footer
+    height: 6rem
+    background-color: $nav-background-color
+
+

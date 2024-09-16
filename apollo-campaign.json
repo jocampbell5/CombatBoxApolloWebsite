@@ -1,0 +1,1003 @@
+{
+    "Name": "sealion-campaign",
+    "Map": "Normandy",
+    "Day": {
+        "Year": 1944,
+        "Month": 1,
+        "Day": 22,
+        "DayInCampaign": 1
+    },
+    "WinningCoalition": "Neutral",
+    "PreviousDaysEventsDescription": "The Allies destroyed Sevenoaks Warehousing, Tunbridge Wells Rail Depot, and Dungeness Oil Pipeline. \u003Cbr/\u003E\u003Cbr/\u003EThe Axis destroyed Dorking Rail Depot and Eastbourne Port Railhead. \u003Cbr/\u003E\u003Cbr/\u003EGerman airborne troops have been deployed to capture Deanland and Horne. \u003Cbr/\u003E\u003Cbr/\u003EGerman 7 Parachute Division entered the fray. \u003Cbr/\u003E\u003Cbr/\u003EAllied logistics resupplied West Meon Defences, Portsmouth Naval Dockyards, Port of Southampton, and River Arun Crossing Point. \u003Cbr/\u003E\u003Cbr/\u003EGerman convoys arrived safely at West Malling. German logistics resupplied Calais Rail and Industrial, Port of Dover, Chairing Railway Station, and Sheppy Coastal Battery. \u003Cbr/\u003E\u003Cbr/\u003E",
+    "CurrentDayStateDescription": "The Allies control airfields at Dunsfold, Coolham, and Ford. Allied airfields Deanland, Horne, and Chailey are heavily damaged.The Axis are stationed at airfields at Staplehurst, Brenzett, Detling, Hawkinge, and West Malling. \u003Cbr/\u003E\u003Cbr/\u003EAllied forces control Frensham Lakeside Encampment, Crawley Lakeside Encampment, Midhurst Rallying Point, and River Arun Crossing Point. The Allies are in poor shape at Brighton Port Railhead and Selsey Coastal Battery. German forces control Sheppy Coastal Battery, Herne Bay Mustering Point, Canterbury Tannery, Chairing Railway Station, Ashford Defences, Hythe Coastal Defences, and 7 Parachute Division. \u003Cbr/\u003E\u003Cbr/\u003EAllied convoys are expected to try to resupply Brighton Port Railhead and Chailey. German convoys are likely to try to resupply Chairing Railway Station and West Malling.",
+    "Weather": {
+        "WindDescription": "Moderate winds from the west (277\u00B0, ~5m/s)",
+        "WindAtGroundLevel": {
+            "Bearing": 97,
+            "AsStandardWindBearing": 277,
+            "Speed": 5
+        },
+        "CloudConfig": {
+            "CloudLevel": 900,
+            "CloudHeight": 0,
+            "CloudConfig": "summer\\01_Light_06\\sky.ini"
+        },
+        "CloudDescription": "scattered clouds",
+        "TemperatureDescription": "cold",
+        "Temperature": 2
+    },
+    "WeatherTomorrow": {
+        "WindDescription": "Light winds from the southeast (146\u00B0, ~0m/s)",
+        "WindAtGroundLevel": {
+            "Bearing": 326,
+            "AsStandardWindBearing": 146,
+            "Speed": 0
+        },
+        "CloudConfig": {
+            "CloudLevel": 700,
+            "CloudHeight": 4000,
+            "CloudConfig": "summer\\04_Overcast_00\\sky.ini"
+        },
+        "CloudDescription": "overcast skies",
+        "TemperatureDescription": "freezing",
+        "Temperature": -1
+    },
+    "AlliedControlledPointsAtStart": 33,
+    "AxisControlledPointsAtStart": 28,
+    "AlliedControlledPointsToday": 33,
+    "AxisControlledPointsToday": 28,
+    "AlliedSupplyToday": 6700,
+    "AxisSupplyToday": 5700,
+    "Airfields": [{
+            "Name": "Dunsfold",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 411,
+            "SupplyLevel": 200,
+            "RunwayBearing": 246,
+            "RunwayIsConcrete": true,
+            "AvailableAirframes": [{
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                }
+            ]
+        },
+        {
+            "Name": "Deanland",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 716,
+            "SupplyLevel": 200,
+            "RunwayBearing": 238,
+            "RunwayIsConcrete": true,
+            "AvailableAirframes": []
+        },
+        {
+            "Name": "Horne",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 414,
+            "SupplyLevel": 200,
+            "RunwayBearing": 226,
+            "RunwayIsConcrete": true,
+            "AvailableAirframes": [{
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 8
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 8
+                }
+            ]
+        },
+        {
+            "Name": "Staplehurst",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 419,
+            "SupplyLevel": 200,
+            "RunwayBearing": 275,
+            "RunwayIsConcrete": true,
+            "AvailableAirframes": [{
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 8
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 8
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                }
+            ]
+        },
+        {
+            "Name": "Brenzett",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 521,
+            "SupplyLevel": 200,
+            "RunwayBearing": 267,
+            "RunwayIsConcrete": true,
+            "AvailableAirframes": [{
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                }
+            ]
+        },
+        {
+            "Name": "Chailey",
+            "Coalition": "Allies",
+            "Country": "Great Britain",
+            "Grid": 614,
+            "SupplyLevel": 200,
+            "RunwayBearing": 257,
+            "RunwayIsConcrete": true,
+            "AvailableAirframes": [{
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Hurricane",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Hurricane",
+                    "NumberAvailable": 20
+                }
+            ]
+        },
+        {
+            "Name": "Coolham",
+            "Coalition": "Allies",
+            "Country": "Great Britain",
+            "Grid": 612,
+            "SupplyLevel": 200,
+            "RunwayBearing": 289,
+            "RunwayIsConcrete": true,
+            "AvailableAirframes": [{
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Hurricane",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Typhoon",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Hurricane",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Typhoon",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                }
+            ]
+        },
+        {
+            "Name": "Detling",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 219,
+            "SupplyLevel": 200,
+            "RunwayBearing": 223,
+            "RunwayIsConcrete": false,
+            "AvailableAirframes": [{
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 8
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 8
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                }
+            ]
+        },
+        {
+            "Name": "Ford",
+            "Coalition": "Allies",
+            "Country": "Great Britain",
+            "Grid": 710,
+            "SupplyLevel": 200,
+            "RunwayBearing": 236,
+            "RunwayIsConcrete": true,
+            "AvailableAirframes": [{
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Hurricane",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Typhoon",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Hurricane",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "Typhoon",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                }
+            ]
+        },
+        {
+            "Name": "Hawkinge",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 423,
+            "SupplyLevel": 200,
+            "RunwayBearing": 236,
+            "RunwayIsConcrete": false,
+            "AvailableAirframes": [{
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "",
+                    "FriendlyName": "FW-190",
+                    "NumberAvailable": 20
+                }
+            ]
+        },
+        {
+            "Name": "West Malling",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 217,
+            "SupplyLevel": 200,
+            "RunwayBearing": 256,
+            "RunwayIsConcrete": true,
+            "AvailableAirframes": []
+        }
+    ],
+    "Objectives": [{
+            "Name": "Thames River Defences",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 112,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Chatham Dockyards",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 118,
+            "SupplyLevel": 300,
+            "MaxSupplyLevel": 300,
+            "Type": "STRATEGIC"
+        },
+        {
+            "Name": "Sheppy Coastal Battery",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 121,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Herne Bay Mustering Point",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 123,
+            "SupplyLevel": 100,
+            "MaxSupplyLevel": 100,
+            "Type": "SMALL"
+        },
+        {
+            "Name": "Orpington Defences",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 214,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Sevenoaks Warehousing",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 216,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Canterbury Tannery",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 222,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Guildford Rail Depot",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 311,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Dorking Rail Depot",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 312,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Chairing Railway Station",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 320,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Ashford Defences",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 321,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Tunbridge Wells Rail Depot",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 416,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Crawley Lakeside Encampment",
+            "Coalition": "Allies",
+            "Country": "Great Britain",
+            "Grid": 513,
+            "SupplyLevel": 100,
+            "MaxSupplyLevel": 100,
+            "Type": "SMALL"
+        },
+        {
+            "Name": "Hawkhurst Armour Concentration",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 518,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Hythe Coastal Defences",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 522,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "River Arun Crossing Point",
+            "Coalition": "Allies",
+            "Country": "Great Britain",
+            "Grid": 611,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Heathfield Munitions Depot",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 617,
+            "SupplyLevel": 100,
+            "MaxSupplyLevel": 100,
+            "Type": "SMALL"
+        },
+        {
+            "Name": "Rye Submarine Pens",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 620,
+            "SupplyLevel": 100,
+            "MaxSupplyLevel": 100,
+            "Type": "SMALL"
+        },
+        {
+            "Name": "Dungeness Oil Pipeline",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 621,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Brighton Port Railhead",
+            "Coalition": "Allies",
+            "Country": "Great Britain",
+            "Grid": 714,
+            "SupplyLevel": 300,
+            "MaxSupplyLevel": 300,
+            "Type": "STRATEGIC"
+        },
+        {
+            "Name": "Hastings Coastal Defences",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 719,
+            "SupplyLevel": 200,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Eastbourne Port Railhead",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 817,
+            "SupplyLevel": 300,
+            "MaxSupplyLevel": 300,
+            "Type": "STRATEGIC"
+        }
+    ],
+    "PilotStreaksAllied": [],
+    "PilotStreaksAxis": []
+}

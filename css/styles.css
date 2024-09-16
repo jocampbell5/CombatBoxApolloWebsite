@@ -1,0 +1,45 @@
+body {
+  background-color: linear-gradient(165deg, #121212, #3f3f3f);
+  background: linear-gradient(165deg, #121212, #3f3f3f);
+}
+
+.modal-background-body {
+  background-color: linear-gradient(165deg, #121212, #3f3f3f);
+  background: linear-gradient(165deg, #121212, #3f3f3f);
+}
+
+/* Highlight row on hover */
+.selectable-row:hover {
+  --bs-table-bg:#434343 !important;
+  --bs-table-striped-bg: #434343 !important;
+}
+
+.first-letter-cap {
+  text-transform: lowercase;
+}
+.first-letter-cap::first-letter {
+  text-transform: uppercase;
+}
+
+.nav-bg-color {
+  background-color: #616161;
+}
+
+.nav-text {
+  color: #bbbbbb;
+  padding: 5;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav-text:hover {
+  color: #ffffff;
+}
+.nav-text.active {
+  color: #ffffff !important;
+}
+
+.footer {
+  height: 6rem;
+  background-color: #616161;
+}/*# sourceMappingURL=styles.css.map */

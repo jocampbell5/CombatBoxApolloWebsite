@@ -1,0 +1,461 @@
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Combat Box Apollo Campaign Stats</title>
+    <!-- Link to an external stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="text-white">
+    <div class="row justify-content-center">
+        <img class="img-responsive" src="https://combatbox.net/static/img/Riksen-001.jpg">
+    </div>
+
+    <nav class="navbar navbar-expand-lg nav-bg-color mb-5">
+        <div class="container-fluid">
+            <div class="navbar-brand" href="#">
+                <img class="img-responsive" height="30" src="/imgs/Combat_Box_2020_Logo_Blue.png" alt="Combat Box"> Combat Box
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-text active" aria-current="page" href="/index.html">Main</a>
+                    <a class="nav-text" href="#">Manual</a>
+                    <a class="nav-text" href="#">FAQ</a>
+                    <a class="nav-text" href="https://combatbox.net/en/info/">Info</a>
+                    <a class="nav-text" href="#">Pilots</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-center">
+        <!-- ..... -->
+        <!-- ..... -->
+        <!-- STREAK BONUS BLOCK -->
+        <!-- ..... -->
+        <!-- ..... -->
+        <div class="row">
+            <h2 class="text-uppercase fw-bolder text-center pt-3">
+                Top Successful Mission Streak
+            </h2>
+            <div class="col-lg-6 col-12">
+                <div class="col-lg-6 offset-lg-6 text-uppercase fw-bold text-center">
+                    Allied Pilots
+                </div>
+                <div class="col-lg-6 offset-lg-6 col-12">
+                    <table class="table table-dark table-responsive table-striped table-bordered text-start">
+                        <thead>
+                            <tr>
+                                <th scope="row">Name</th>
+                                <th scope="row">Streak</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Alonzo</th>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Brock</th>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Kola</th>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Eisbear</th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Iksnpunk</th>
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="col-lg-6 text-uppercase fw-bold text-center">
+                    Axis Pilots
+                </div>
+                <div class="col-lg-6 col-12">
+                    <table class="table table-dark table-responsive table-striped table-bordered text-start">
+                        <thead>
+                            <tr>
+                                <th scope="row">Name</th>
+                                <th scope="row">Streak</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Alonzo</th>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Brock</th>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Kola</th>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Eisbear</th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Iksnpunk</th>
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- ..... -->
+            <!-- ..... -->
+            <!-- ALLIES REPORT BLOCK -->
+            <!-- ..... -->
+            <!-- ..... -->
+            <div class="col-lg-4 col-12 fw-bold pt-3 order-lg-0 order-1">
+                <div class="table-responsive text-start">
+                    <h2 class="text-uppercase fw-bolder text-center">
+                        Allies Report
+                    </h2>
+                    <div class="col-12 text-uppercase fw-bold">Airfields</div>
+                    <div class="table-container" id="alliedTableContainer">
+
+                    </div>
+                    <div class="col-12 text-uppercase fw-bold">Held Objectives</div>
+                    <div class="table-container" id="alliedObjectivesContainer">
+                    </div>
+                    <div class="col-12 text-uppercase fw-bold">Losses</div>
+                    <table class="table table-bordered table-dark table-responsive table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Type</th>
+                                <th scope="col">Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Planes</th>
+                                <td>181238</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Pilots</th>
+                                <td>1234</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Buildings</th>
+                                <td>60123</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Military</th>
+                                <td>12313</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Vehicles</th>
+                                <td>1257</td>
+                            </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- ..... -->
+            <!-- ..... -->
+            <!-- CAMPAIGN MAP BLOCK -->
+            <!-- ..... -->
+            <!-- ..... -->
+            <div class="col-lg-4 col-12 pt-3 order-lg-1 order-0">
+                <h2 class="text-uppercase fw-bolder text-center">
+                    Campaign Map
+                </h2>
+                <img class="img-fluid" src="https://m2.combatbox.net/sealion-campaign/sealion-campaign-day-022.jpg">
+                <!-- ..... -->
+                <!-- ..... -->
+                <!-- SITUATION REPORT BLOCK -->
+                <!-- ..... -->
+                <!-- ..... -->
+                <h2 class="text-uppercase fw-bolder text-center pt-3">
+                    Situation Report
+                </h2>
+                <div class="col-12 text-uppercase fw-bold">
+                    Time Remaining
+                </div>
+                <div class="col-12">
+                    83 minutes
+                </div>
+                <!-- ..... -->
+                <!-- ..... -->
+                <!-- ONLINE PLAYERS BLOCK -->
+                <!-- ..... -->
+                <!-- ..... -->
+                <div class="col-12 text-uppercase fw-bold pt-3">
+                    Online Players
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="col-lg-3 col-12 text-center">
+                        <table class="table table-sm table-responsive table-borderless d-flex justify-content-center">
+                            <tbody>
+                                <tr>
+                                    <th class="text-end bg-transparent text-white" scope="row">Allies</th>
+                                    <td class="text-start bg-transparent text-white">15</td>
+                                    <th class="text-end bg-transparent text-white" scope="row">Axis</th>
+                                    <td class="text-start bg-transparent text-white">15</td>
+                                </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- ..... -->
+                <!-- ..... -->
+                <!-- WEATHER REPORT BLOCK -->
+                <!-- ..... -->
+                <!-- ..... -->
+                <div class="col-12 text-uppercase fw-bolder pt-1">
+                    Weather Report
+                </div>
+                <div class="row pt-2">
+                    <div class="col-6">
+                        <div class="col-12 text-capitalize fw-bolder text-start border-bottom">
+                            Today's forecast
+                        </div>
+                        <table class="table table-sm table-responsive table-borderless">
+                            <tbody>
+                                <tr>
+                                    <th class="bg-transparent text-white" scope="row">Temperature</th>
+                                    <td class="bg-transparent text-white" id="temperatureContainer"><span>°C</span></td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-transparent text-white" scope="row">Clouds</th>
+                                    <td class="bg-transparent text-white text-capitalize" id="cloudsContainer"></td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-transparent text-white" scope="row">Winds</th>
+                                    <td class="bg-transparent text-white" id="windsContainer"></td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-transparent text-white" scope="row">Precipitation</th>
+                                    <td class="bg-transparent text-white">None</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-6">
+                        <div class="col-12 text-capitalize fw-bolder text-start border-bottom">
+                            Tommorrow's forecast
+                        </div>
+                        <table class="table table-sm table-responsive table-borderless">
+                            <tbody>
+                                <tr>
+                                    <th class="bg-transparent text-white" scope="row">Temperature</th>
+                                    <td class="bg-transparent text-white" id="nextDayTemperatureContainer"><span>°C</span></td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-transparent text-white" scope="row">Clouds</th>
+                                    <td class="bg-transparent text-white text-capitalize" id="nextDayCloudsContainer"></td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-transparent text-white" scope="row">Winds</th>
+                                    <td class="bg-transparent text-white" id="nextDayWindsContainer"></td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-transparent text-white" scope="row">Precipitation</th>
+                                    <td class="bg-transparent text-white">None</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- ..... -->
+                <!-- ..... -->
+                <!-- CAMPIAGN INFO BLOCK -->
+                <!-- ..... -->
+                <!-- ..... -->
+                <div class="col-12 text-uppercase fw-bold pt-3">
+                    Campaign Info
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="col-lg-12 col-12 text-center">
+                        <table class="table table-sm table-responsive table-borderless d-flex justify-content-center">
+                            <tbody>
+                                <tr>
+                                    <th class="bg-transparent text-white text-end" scope="row">Campaign Date</th>
+                                    <td class="bg-transparent text-white text-start" id="dateContainer"><span>°C</span></td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-transparent text-white text-end" scope="row">Mission Start Time</th>
+                                    <td class="bg-transparent text-white text-capitalize text-start" id="timeContainer">1110 Hours</td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-transparent text-white text-end" scope="row">Remaining Days</th>
+                                    <td class="bg-transparent text-white text-capitalize text-start" id="daysRemainingContainer">137 Days</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- ..... -->
+                        <!-- ..... -->
+                        <!-- WAR EFFORT BLOCK -->
+                        <!-- ..... -->
+                        <!-- ..... -->
+                        <div class="col-12 text-uppercase fw-bold">
+                            War Effort
+                        </div>
+                        <div class="col-12">
+                            <table class="table table-sm table-responsive table-bordered text-center">
+                                <thead>
+                                    <tr>
+                                        <th class="bg-transparent text-white" scope="col">Coalition</th>
+                                        <th class="bg-transparent text-white" scope="col">Supply</th>
+                                        <th class="bg-transparent text-white" scope="col">Airfields</th>
+                                        <th class="bg-transparent text-white" scope="col">Objectives</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="bg-transparent text-white" scope="row">Allies</th>
+                                        <td class="bg-transparent text-white" id="alliedSupplyContainer">1773</td>
+                                        <td class="bg-transparent text-white">6</td>
+                                        <td class="bg-transparent text-white" id="alliedControlledObjectivesContainer">4</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="bg-transparent text-white" scope="row">Axis</th>
+                                        <td class="bg-transparent text-white" id="axisSupplyContainer">2782</td>
+                                        <td class="bg-transparent text-white">7</td>
+                                        <td class="bg-transparent text-white" id="axisControlledObjectivesContainer">11</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-12 pt-3">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="bg-transparent text-white fw-bold text-start border-bottom pt-3" scope="row" colspan="2">
+                                            Yesterday's Events
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-transparent text-white text-start" id="previousDayEventsDescriptionContainer" scope="row" colspan="2">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-12 pt-3 pb-5">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="bg-transparent text-white fw-bold text-start border-bottom pt-3" scope="row" colspan="2">
+                                            Today's Report
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-transparent text-white text-start" id="currentDayStateDescriptionContainer" scope="row" colspan="2">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ..... -->
+            <!-- ..... -->
+            <!-- AXIS REPORT BLOCK -->
+            <!-- ..... -->
+            <!-- ..... -->
+            <div class="col-lg-4 col-12 fw-bold pt-3 order-lg-2 order-2">
+                <div class="table-responsive text-start">
+                    <h2 class="text-uppercase fw-bolder text-center">
+                        Axis Report
+                    </h2>
+                    <div class="col-12 text-uppercase fw-bold">Airfields</div>
+                    <div class="table-container" id="axisTableContainer">
+
+                    </div>
+                    <div class="col-12 text-uppercase fw-bold">Held Objectives</div>
+                    <div class="table-container" id="axisObjectivesContainer">
+                    </div>
+                    <div class="col-12 text-uppercase fw-bold">Losses</div>
+                    <table class="table table-bordered table-dark table-responsive table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Type</th>
+                                <th scope="col">Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Planes</th>
+                                <td>181238</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Pilots</th>
+                                <td>1234</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Buildings</th>
+                                <td>60123</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Military</th>
+                                <td>12313</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Vehicles</th>
+                                <td>1257</td>
+                            </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer text-center mt-3">
+        Footer Bar
+    </div>
+
+    <!-- Airfield Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="airfieldModal" tabindex="-1" aria-labelledby="airfieldModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-background-body modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="airfieldModalLabel">Airfield Name</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0" id="airframesContainer">
+                    <!-- Airframes will be populated here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script type="module" src="/js/main.js"></script>
+</body>
+
+</html>
