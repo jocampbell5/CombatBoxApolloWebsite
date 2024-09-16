@@ -6,7 +6,7 @@ import { displayWeather } from './displayWeather.js';
 import { displayWarEffort } from './displayWarEffort.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('/apollo-campaign.json') // Ensure path is correct
+    fetch('./apollo-campaign.json') // Ensure path is correct
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');

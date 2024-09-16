@@ -12,7 +12,7 @@ var _displayWarEffort = require("./displayWarEffort.js");
 
 // Import or include the other JavaScript files
 document.addEventListener('DOMContentLoaded', function () {
-  fetch('/apollo-campaign.json') // Ensure path is correct
+  fetch('./apollo-campaign.json') // Ensure path is correct
   .then(function (response) {
     if (!response.ok) {
       throw new Error('Network response was not ok');
