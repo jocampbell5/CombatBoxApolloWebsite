@@ -4,43 +4,45 @@
     "Day": {
         "Year": 1944,
         "Month": 1,
-        "Day": 22,
-        "DayInCampaign": 1
+        "Day": 2,
+        "DayInCampaign": 2
     },
+    "CampaignDayMissionStartTime": 945,
+    "DaysRemaining": 156,
     "WinningCoalition": "Neutral",
-    "PreviousDaysEventsDescription": "The Allies destroyed Sevenoaks Warehousing, Tunbridge Wells Rail Depot, and Dungeness Oil Pipeline. \u003Cbr/\u003E\u003Cbr/\u003EThe Axis destroyed Dorking Rail Depot and Eastbourne Port Railhead. \u003Cbr/\u003E\u003Cbr/\u003EGerman airborne troops have been deployed to capture Deanland and Horne. \u003Cbr/\u003E\u003Cbr/\u003EGerman 7 Parachute Division entered the fray. \u003Cbr/\u003E\u003Cbr/\u003EAllied logistics resupplied West Meon Defences, Portsmouth Naval Dockyards, Port of Southampton, and River Arun Crossing Point. \u003Cbr/\u003E\u003Cbr/\u003EGerman convoys arrived safely at West Malling. German logistics resupplied Calais Rail and Industrial, Port of Dover, Chairing Railway Station, and Sheppy Coastal Battery. \u003Cbr/\u003E\u003Cbr/\u003E",
-    "CurrentDayStateDescription": "The Allies control airfields at Dunsfold, Coolham, and Ford. Allied airfields Deanland, Horne, and Chailey are heavily damaged.The Axis are stationed at airfields at Staplehurst, Brenzett, Detling, Hawkinge, and West Malling. \u003Cbr/\u003E\u003Cbr/\u003EAllied forces control Frensham Lakeside Encampment, Crawley Lakeside Encampment, Midhurst Rallying Point, and River Arun Crossing Point. The Allies are in poor shape at Brighton Port Railhead and Selsey Coastal Battery. German forces control Sheppy Coastal Battery, Herne Bay Mustering Point, Canterbury Tannery, Chairing Railway Station, Ashford Defences, Hythe Coastal Defences, and 7 Parachute Division. \u003Cbr/\u003E\u003Cbr/\u003EAllied convoys are expected to try to resupply Brighton Port Railhead and Chailey. German convoys are likely to try to resupply Chairing Railway Station and West Malling.",
+    "PreviousDaysEventsDescription": "",
+    "CurrentDayStateDescription": "",
     "Weather": {
-        "WindDescription": "Moderate winds from the west (277\u00B0, ~5m/s)",
+        "WindDescription": "Strong winds from the west (289\u00B0, ~9m/s)",
         "WindAtGroundLevel": {
-            "Bearing": 97,
-            "AsStandardWindBearing": 277,
-            "Speed": 5
+            "Bearing": 109,
+            "AsStandardWindBearing": 289,
+            "Speed": 9
         },
         "CloudConfig": {
-            "CloudLevel": 900,
-            "CloudHeight": 0,
-            "CloudConfig": "summer\\01_Light_06\\sky.ini"
+            "CloudLevel": 1400,
+            "CloudHeight": 8000,
+            "CloudConfig": "summer\\04_Overcast_01\\sky.ini"
         },
-        "CloudDescription": "scattered clouds",
+        "CloudDescription": "overcast skies",
         "TemperatureDescription": "cold",
         "Temperature": 2
     },
     "WeatherTomorrow": {
-        "WindDescription": "Light winds from the southeast (146\u00B0, ~0m/s)",
+        "WindDescription": "Moderate winds from the west (251\u00B0, ~5m/s)",
         "WindAtGroundLevel": {
-            "Bearing": 326,
-            "AsStandardWindBearing": 146,
-            "Speed": 0
+            "Bearing": 71,
+            "AsStandardWindBearing": 251,
+            "Speed": 5
         },
         "CloudConfig": {
-            "CloudLevel": 700,
-            "CloudHeight": 4000,
-            "CloudConfig": "summer\\04_Overcast_00\\sky.ini"
+            "CloudLevel": 1400,
+            "CloudHeight": 6000,
+            "CloudConfig": "summer\\03_Heavy_01\\sky.ini"
         },
-        "CloudDescription": "overcast skies",
-        "TemperatureDescription": "freezing",
-        "Temperature": -1
+        "CloudDescription": "heavy cloud cover",
+        "TemperatureDescription": "cold",
+        "Temperature": 4
     },
     "AlliedControlledPointsAtStart": 33,
     "AxisControlledPointsAtStart": 28,
@@ -57,43 +59,21 @@
             "RunwayBearing": 246,
             "RunwayIsConcrete": true,
             "AvailableAirframes": [{
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "a20b",
+                    "ReadableName": "A-20",
+                    "ColloquialName": "Havoc",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "p47d22",
+                    "ReadableName": "P-47-D-22",
+                    "ColloquialName": "Thunderbolt",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "p38j25",
+                    "ReadableName": "P-38",
+                    "ColloquialName": "Lightning",
                     "NumberAvailable": 16
                 }
             ]
@@ -104,7 +84,7 @@
             "Country": "Germany",
             "Grid": 716,
             "SupplyLevel": 200,
-            "RunwayBearing": 238,
+            "RunwayBearing": 328,
             "RunwayIsConcrete": true,
             "AvailableAirframes": []
         },
@@ -117,33 +97,21 @@
             "RunwayBearing": 226,
             "RunwayIsConcrete": true,
             "AvailableAirframes": [{
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "a20b",
+                    "ReadableName": "A-20",
+                    "ColloquialName": "Havoc",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "p47d22",
+                    "ReadableName": "P-47-D-22",
+                    "ColloquialName": "Thunderbolt",
                     "NumberAvailable": 16
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 8
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "p38j25",
+                    "ReadableName": "P-38",
+                    "ColloquialName": "Lightning",
                     "NumberAvailable": 8
                 }
             ]
@@ -157,83 +125,51 @@
             "RunwayBearing": 275,
             "RunwayIsConcrete": true,
             "AvailableAirframes": [{
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "bf109e7",
+                    "ReadableName": "109 E-7",
+                    "ColloquialName": "Emil",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a3",
+                    "ReadableName": "190 A-3",
+                    "ColloquialName": "Focke-Wulf",
                     "NumberAvailable": 16
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a5",
+                    "ReadableName": "190 A-5",
+                    "ColloquialName": "Focke-Wulf",
                     "NumberAvailable": 16
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a6",
+                    "ReadableName": "190 A-6",
+                    "ColloquialName": "Focke-Wulf",
                     "NumberAvailable": 16
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a8",
+                    "ReadableName": "190 A-8",
+                    "ColloquialName": "Anton",
                     "NumberAvailable": 8
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "ju88c6",
+                    "ReadableName": "Ju 88 C6",
+                    "ColloquialName": "Schnellbomber",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "bf110g2",
+                    "ReadableName": "110 G-2",
+                    "ColloquialName": "Zerst\u00F6rer",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 8
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "me410a1",
+                    "ReadableName": "Me 410",
+                    "ColloquialName": "Hornisse",
                     "NumberAvailable": 16
                 }
             ]
@@ -247,113 +183,69 @@
             "RunwayBearing": 267,
             "RunwayIsConcrete": true,
             "AvailableAirframes": [{
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "bf109e7",
+                    "ReadableName": "109 E-7",
+                    "ColloquialName": "Emil",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a3",
+                    "ReadableName": "190 A-3",
+                    "ColloquialName": "Focke-Wulf",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a5",
+                    "ReadableName": "190 A-5",
+                    "ColloquialName": "Focke-Wulf",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a6",
+                    "ReadableName": "190 A-6",
+                    "ColloquialName": "Focke-Wulf",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a8",
+                    "ReadableName": "190 A-8",
+                    "ColloquialName": "Anton",
                     "NumberAvailable": 16
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "he111h6",
+                    "ReadableName": "111 H-6",
+                    "ColloquialName": "Heinkel",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "he111h16",
+                    "ReadableName": "111 H-16",
+                    "ColloquialName": "Heinkel",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "ju88a4",
+                    "ReadableName": "Ju 88 A4",
+                    "ColloquialName": "Schnellbomber",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "ju88c6",
+                    "ReadableName": "Ju 88 C6",
+                    "ColloquialName": "Schnellbomber",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "bf110g2",
+                    "ReadableName": "110 G-2",
+                    "ColloquialName": "Zerst\u00F6rer",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "me410a1",
+                    "ReadableName": "Me 410",
+                    "ColloquialName": "Hornisse",
                     "NumberAvailable": 20
                 }
             ]
@@ -367,33 +259,21 @@
             "RunwayBearing": 257,
             "RunwayIsConcrete": true,
             "AvailableAirframes": [{
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
+                    "Type": "spitfiremkixc",
+                    "ReadableName": "Spitfire IXc",
+                    "ColloquialName": "Spitfire",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
+                    "Type": "spitfiremkvb",
+                    "ReadableName": "Spitfire Vb",
+                    "ColloquialName": "Spitfire",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "Hurricane",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "Hurricane",
+                    "Type": "hurricanemkii",
+                    "ReadableName": "Hurricane",
+                    "ColloquialName": "Hurricane",
                     "NumberAvailable": 20
                 }
             ]
@@ -407,84 +287,46 @@
             "RunwayBearing": 289,
             "RunwayIsConcrete": true,
             "AvailableAirframes": [{
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
+                    "Type": "spitfiremkixc",
+                    "ReadableName": "Spitfire IXc",
+                    "ColloquialName": "Spitfire",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
+                    "Type": "spitfiremkixe",
+                    "ReadableName": "Spitfire IXe",
+                    "ColloquialName": "Spitfire",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
+                    "Type": "spitfiremkvb",
+                    "ReadableName": "Spitfire Vb",
+                    "ColloquialName": "Spitfire",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "Hurricane",
+                    "Type": "hurricanemkii",
+                    "ReadableName": "Hurricane",
+                    "ColloquialName": "Hurricane",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "mosquitofbmkvis2",
+                    "ReadableName": "Mosquito",
+                    "ColloquialName": "Mossie",
                     "NumberAvailable": 16
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "Typhoon",
+                    "Type": "typhoonmkib",
+                    "ReadableName": "Typhoon",
+                    "ColloquialName": "Tiffy",
                     "NumberAvailable": 16
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "a20b",
+                    "ReadableName": "A-20",
+                    "ColloquialName": "Havoc",
                     "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "Hurricane",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "Typhoon",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
                 }
             ]
         },
@@ -497,83 +339,51 @@
             "RunwayBearing": 223,
             "RunwayIsConcrete": false,
             "AvailableAirframes": [{
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "bf109e7",
+                    "ReadableName": "109 E-7",
+                    "ColloquialName": "Emil",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a3",
+                    "ReadableName": "190 A-3",
+                    "ColloquialName": "Focke-Wulf",
                     "NumberAvailable": 16
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a5",
+                    "ReadableName": "190 A-5",
+                    "ColloquialName": "Focke-Wulf",
                     "NumberAvailable": 16
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a6",
+                    "ReadableName": "190 A-6",
+                    "ColloquialName": "Focke-Wulf",
                     "NumberAvailable": 16
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a8",
+                    "ReadableName": "190 A-8",
+                    "ColloquialName": "Anton",
                     "NumberAvailable": 8
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "ju88c6",
+                    "ReadableName": "Ju 88 C6",
+                    "ColloquialName": "Schnellbomber",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "bf110g2",
+                    "ReadableName": "110 G-2",
+                    "ColloquialName": "Zerst\u00F6rer",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 8
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "me410a1",
+                    "ReadableName": "Me 410",
+                    "ColloquialName": "Hornisse",
                     "NumberAvailable": 16
                 }
             ]
@@ -584,87 +394,49 @@
             "Country": "Great Britain",
             "Grid": 710,
             "SupplyLevel": 200,
-            "RunwayBearing": 236,
+            "RunwayBearing": 324,
             "RunwayIsConcrete": true,
             "AvailableAirframes": [{
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
+                    "Type": "spitfiremkixc",
+                    "ReadableName": "Spitfire IXc",
+                    "ColloquialName": "Spitfire",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
+                    "Type": "spitfiremkixe",
+                    "ReadableName": "Spitfire IXe",
+                    "ColloquialName": "Spitfire",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
+                    "Type": "spitfiremkvb",
+                    "ReadableName": "Spitfire Vb",
+                    "ColloquialName": "Spitfire",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "Hurricane",
+                    "Type": "hurricanemkii",
+                    "ReadableName": "Hurricane",
+                    "ColloquialName": "Hurricane",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "mosquitofbmkvis2",
+                    "ReadableName": "Mosquito",
+                    "ColloquialName": "Mossie",
                     "NumberAvailable": 16
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "Typhoon",
+                    "Type": "typhoonmkib",
+                    "ReadableName": "Typhoon",
+                    "ColloquialName": "Tiffy",
                     "NumberAvailable": 16
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "a20b",
+                    "ReadableName": "A-20",
+                    "ColloquialName": "Havoc",
                     "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "Spitfire",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "Hurricane",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "Typhoon",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
                 }
             ]
         },
@@ -677,113 +449,69 @@
             "RunwayBearing": 236,
             "RunwayIsConcrete": false,
             "AvailableAirframes": [{
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "bf109e7",
+                    "ReadableName": "109 E-7",
+                    "ColloquialName": "Emil",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a3",
+                    "ReadableName": "190 A-3",
+                    "ColloquialName": "Focke-Wulf",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a5",
+                    "ReadableName": "190 A-5",
+                    "ColloquialName": "Focke-Wulf",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a6",
+                    "ReadableName": "190 A-6",
+                    "ColloquialName": "Focke-Wulf",
                     "NumberAvailable": 20
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "fw190a8",
+                    "ReadableName": "190 A-8",
+                    "ColloquialName": "Anton",
                     "NumberAvailable": 16
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "he111h6",
+                    "ReadableName": "111 H-6",
+                    "ColloquialName": "Heinkel",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "he111h16",
+                    "ReadableName": "111 H-16",
+                    "ColloquialName": "Heinkel",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "ju88a4",
+                    "ReadableName": "Ju 88 A4",
+                    "ColloquialName": "Schnellbomber",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "ju88c6",
+                    "ReadableName": "Ju 88 C6",
+                    "ColloquialName": "Schnellbomber",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "bf110g2",
+                    "ReadableName": "110 G-2",
+                    "ColloquialName": "Zerst\u00F6rer",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "",
-                    "FriendlyName": "FW-190",
+                    "Type": "me410a1",
+                    "ReadableName": "Me 410",
+                    "ColloquialName": "Hornisse",
                     "NumberAvailable": 20
                 }
             ]
@@ -998,6 +726,44 @@
             "Type": "STRATEGIC"
         }
     ],
-    "PilotStreaksAllied": [],
-    "PilotStreaksAxis": []
+    "PilotStreaksAllied": [{
+            "Name": "Alonzo",
+            "SuccessfulMissionStreak": 3,
+            "StreakBonus": 0.3,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Haluter",
+            "SuccessfulMissionStreak": 5,
+            "StreakBonus": 0.5,
+            "Coalition": "Allies"
+        }
+    ],
+    "PilotStreaksAxis": [{
+            "Name": "Sketch",
+            "StreakBonus": 0.5,
+            "SuccessfulMissionStreak": 5,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Talon",
+            "StreakBonus": 0.2,
+            "SuccessfulMissionStreak": 2,
+            "Coalition": "Axis"
+        }
+    ],
+    "LossesAllied": {
+        "Aircraft": 1021,
+        "Pilots": 203,
+        "Buildings": 51,
+        "Vehicles": 225,
+        "Ships": 6
+    },
+    "LossesAxis": {
+        "Aircraft": 824,
+        "Pilots": 179,
+        "Buildings": 67,
+        "Vehicles": 317,
+        "Ships": 12
+    }
 }

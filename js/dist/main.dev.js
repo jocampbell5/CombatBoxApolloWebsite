@@ -10,6 +10,10 @@ var _displayWeather = require("./displayWeather.js");
 
 var _displayWarEffort = require("./displayWarEffort.js");
 
+var _displayPilotStreaks = require("./displayPilotStreaks.js");
+
+var _displayLosses = require("./displayLosses.js");
+
 // Import or include the other JavaScript files
 document.addEventListener('DOMContentLoaded', function () {
   fetch('./apollo-campaign.json') // Ensure path is correct
@@ -24,6 +28,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var airfieldsData = data.Airfields;
     var objectivesData = data.Objectives;
     var formattedDate = (0, _displayDate.formatDate)(data.Day);
+    var pilotStreaksAllied = data.PilotStreaksAllied;
+    var pilotStreaksAxis = data.PilotStreaksAxis;
+    var lossesAllied = data.LossesAllied;
+    var lossesAxis = data.LossesAxis;
     var alliedAirfields = [],
         axisAirfields = [];
     var alliedObjectives = [],
@@ -47,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
 
+    (0, _displayPilotStreaks.displayPilotStreaks)('alliedPilotStreaks', 'axisPilotStreaks', pilotStreaksAllied, pilotStreaksAxis);
     (0, _displayAirfieldsTable.displayAirfieldsTable)('alliedTableContainer', alliedAirfields);
     (0, _displayAirfieldsTable.displayAirfieldsTable)('axisTableContainer', axisAirfields);
     (0, _displayObjectivesTable.displayObjectivesTable)('alliedObjectivesContainer', alliedObjectives);
@@ -54,6 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
     (0, _displayDate.displayDate)('dateContainer', formattedDate);
     (0, _displayWeather.displayWeather)(data);
     (0, _displayWarEffort.displayWarEffort)(data);
+    (0, _displayLosses.displayLosses)('alliedLossesContainer', 'axisLossesContainer', lossesAllied, lossesAxis);
   })["catch"](function (error) {
     return console.error('Error fetching JSON:', error);
   });

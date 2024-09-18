@@ -47,6 +47,7 @@
             <h2 class="text-uppercase fw-bolder text-center pt-3">
                 Top Successful Mission Streak
             </h2>
+
             <div class="col-lg-6 col-12">
                 <div class="col-lg-6 offset-lg-6 text-uppercase fw-bold text-center">
                     Allied Pilots
@@ -57,34 +58,16 @@
                             <tr>
                                 <th scope="row">Name</th>
                                 <th scope="row">Streak</th>
+                                <th scope="row">Bonus</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Alonzo</th>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Brock</th>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Kola</th>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Eisbear</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Iksnpunk</th>
-                                <td>1</td>
-                            </tr>
+                        <tbody id="alliedPilotStreaks">
+                            <!-- Dynamic content will be inserted here -->
                         </tbody>
                     </table>
-
                 </div>
             </div>
+
             <div class="col-lg-6 col-12">
                 <div class="col-lg-6 text-uppercase fw-bold text-center">
                     Axis Pilots
@@ -95,32 +78,13 @@
                             <tr>
                                 <th scope="row">Name</th>
                                 <th scope="row">Streak</th>
+                                <th scope="row">Bonus</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Alonzo</th>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Brock</th>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Kola</th>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Eisbear</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Iksnpunk</th>
-                                <td>1</td>
-                            </tr>
+                        <tbody id="axisPilotStreaks">
+                            <!-- Dynamic content will be inserted here -->
                         </tbody>
                     </table>
-
                 </div>
             </div>
         </div>
@@ -143,35 +107,9 @@
                     <div class="table-container" id="alliedObjectivesContainer">
                     </div>
                     <div class="col-12 text-uppercase fw-bold">Losses</div>
-                    <table class="table table-bordered table-dark table-responsive table-striped">
-                        <thead>
-                            <tr>
-                                <th scope="col">Type</th>
-                                <th scope="col">Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Planes</th>
-                                <td>181238</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Pilots</th>
-                                <td>1234</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Buildings</th>
-                                <td>60123</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Military</th>
-                                <td>12313</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Vehicles</th>
-                                <td>1257</td>
-                            </tr>
-                    </table>
+                    <div id="alliedLossesContainer">
+                        <!-- Allied losses container -->
+                    </div>
                 </div>
             </div>
             <!-- ..... -->
@@ -390,35 +328,9 @@
                     <div class="table-container" id="axisObjectivesContainer">
                     </div>
                     <div class="col-12 text-uppercase fw-bold">Losses</div>
-                    <table class="table table-bordered table-dark table-responsive table-striped">
-                        <thead>
-                            <tr>
-                                <th scope="col">Type</th>
-                                <th scope="col">Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Planes</th>
-                                <td>181238</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Pilots</th>
-                                <td>1234</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Buildings</th>
-                                <td>60123</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Military</th>
-                                <td>12313</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Vehicles</th>
-                                <td>1257</td>
-                            </tr>
-                    </table>
+                    <div id="axisLossesContainer">
+                        <!-- axis losses container -->
+                    </div>
                 </div>
             </div>
         </div>

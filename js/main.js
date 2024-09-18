@@ -4,6 +4,8 @@ import { displayObjectivesTable } from './displayObjectivesTable.js';
 import { displayDate, formatDate } from './displayDate.js';
 import { displayWeather } from './displayWeather.js';
 import { displayWarEffort } from './displayWarEffort.js';
+import { displayPilotStreaks } from './displayPilotStreaks.js';
+import { displayLosses } from './displayLosses.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     fetch('./apollo-campaign.json') // Ensure path is correct
@@ -18,6 +20,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const airfieldsData = data.Airfields;
             const objectivesData = data.Objectives;
             const formattedDate = formatDate(data.Day);
+            const pilotStreaksAllied = data.PilotStreaksAllied;
+            const pilotStreaksAxis = data.PilotStreaksAxis;
+            const lossesAllied = data.LossesAllied;
+            const lossesAxis = data.LossesAxis;
+
+
 
             let alliedAirfields = [],
                 axisAirfields = [];
@@ -34,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 axisObjectives = objectivesData.filter(item => item.Coalition === "Axis");
             }
 
+            displayPilotStreaks('alliedPilotStreaks', 'axisPilotStreaks', pilotStreaksAllied, pilotStreaksAxis);
             displayAirfieldsTable('alliedTableContainer', alliedAirfields);
             displayAirfieldsTable('axisTableContainer', axisAirfields);
             displayObjectivesTable('alliedObjectivesContainer', alliedObjectives);
@@ -41,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
             displayDate('dateContainer', formattedDate);
             displayWeather(data);
             displayWarEffort(data);
+            displayLosses('alliedLossesContainer', 'axisLossesContainer', lossesAllied, lossesAxis);
         })
         .catch(error => console.error('Error fetching JSON:', error));
 });
