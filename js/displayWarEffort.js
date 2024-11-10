@@ -3,11 +3,11 @@ export function displayWarEffort(data) {
     const axisControlledObjectives = data.AxisControlledPointsToday;
     const alliedSupplyToday = data.AlliedSupplyToday;
     const axisSupplyToday = data.AxisSupplyToday;
-    const currentDayStateDescription = data.CurrentDayStateDescription;
+    let currentDayStateDescription = data.CurrentDayStateDescription;
     const previousDayEventsDescription = data.PreviousDaysEventsDescription;
 
-
-
+    // Remove the phrase "The current situation" from the description
+    currentDayStateDescription = currentDayStateDescription.replace(/<b>The current situation<\/b><br\/><br\/>/, '');
 
     // Display the data in the respective HTML elements
     document.getElementById('alliedControlledObjectivesContainer').textContent = alliedControlledObjectives;

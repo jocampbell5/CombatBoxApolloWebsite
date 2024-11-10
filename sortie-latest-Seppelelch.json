@@ -1,0 +1,27 @@
+{
+    "AircraftType": "fw 190 a-8",
+    "Country": "Axis",
+    "Coalition": "Axis",
+    "PlayerName": "[Pb]Death-Merchant",
+    "Callsign": "",
+    "Events": [{
+            "AirfieldName": "Bagerovo",
+            "FlightSize": 2,
+            "EventType": "Takeoff",
+            "DateTime": "1944-04-10T16:00:16",
+            "Position": "(274165.0625,144.7563,102207.5781)"
+        },
+        {
+            "EnemyType": "La-5FN ser.2",
+            "EventType": "DamageReceived",
+            "DateTime": "1944-04-10T16:11:20",
+            "Position": "(255681.9375,340.4394,136585.6563)"
+        },
+        {
+            "EnemyType": "Yak-9T ser.1",
+            "EventType": "WasDestroyed",
+            "DateTime": "1944-04-10T16:11:58",
+            "Position": "(255237.9375,162.1986,136032.2969)"
+        }
+    ]
+}

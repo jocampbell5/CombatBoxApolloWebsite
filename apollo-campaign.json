@@ -1,228 +1,104 @@
 {
-    "Name": "sealion-campaign",
+    "Name": "big-normandy-campaign",
     "Map": "Normandy",
     "Day": {
         "Year": 1944,
-        "Month": 1,
-        "Day": 2,
-        "DayInCampaign": 2
+        "Month": 8,
+        "Day": 1,
+        "DayInCampaign": 35
     },
-    "CampaignDayMissionStartTime": 945,
-    "DaysRemaining": 156,
+    "CampaignDayMissionStartTime": 1345,
+    "DaysRemaining": 94,
     "WinningCoalition": "Neutral",
-    "PreviousDaysEventsDescription": "",
-    "CurrentDayStateDescription": "",
+    "PreviousDaysEventsDescription": "The Axis destroyed Conde sur Noireau Tank Repair Station and La Ferte Mace Troop Encampment. \u003Cbr/\u003E\u003Cbr/\u003EA contingent of Allied paratroopers have been deployed to capture and secure Falaise Encampment. \u003Cbr/\u003E\u003Cbr/\u003EAllied logistics resupplied Villedieu Fuel Depot, La Vielle, Vire Command And Logistics, and Carpiquet. \u003Cbr/\u003E\u003Cbr/\u003EGerman logistics resupplied Rouen Rail Yards, Gournay en Bray Armour Repair Depot, Bolbec Aviation Fuel Logistics, and Chartres Coal Gas Processing Operation. \u003Cbr/\u003E\u003Cbr/\u003E",
+    "CurrentDayStateDescription": "\u003Cb\u003EThe current situation\u003C/b\u003E\u003Cbr/\u003E\u003Cbr/\u003EThe Allies control airfields at Cretteville, Maupertus, Pontorson, and La Vielle. Allied airfield Carpiquet is heavily damaged.The Axis control airfields at Beaumont Le Roger, Le Havre Octeville, and Triqueville. German airfield Lonrai is heavily damaged.\u003Cbr/\u003E\u003Cbr/\u003EAllied forces are stationed at Arromanches Mulberry B, Coutances Road and Rail Junction, Villedieu Fuel Depot, Vire Command And Logistics, and Domfront HFDF Site. The Allies are in poor shape at Saint Hilaire River Crossing. German forces control Saint-Valery-en-Caux Flak School, Bolbec Aviation Fuel Logistics, Cabourg Coastal Defences, Lisieux Ball Bearing Factory, Vimoutiers Sawmill and Logging Station, and L Aigle Supply Dump. The Axis have only a tenuous grip on Perche HFDF Testing Facility. \u003Cbr/\u003E\u003Cbr/\u003EAllied convoys are likely to attempt to resupply Carpiquet. German convoys are reported to be en-route to resupply Perche HFDF Testing Facility. ",
     "Weather": {
-        "WindDescription": "Strong winds from the west (289\u00B0, ~9m/s)",
+        "WindDescription": "Moderate winds from the west (262\u00B0, ~5m/s)",
         "WindAtGroundLevel": {
-            "Bearing": 109,
-            "AsStandardWindBearing": 289,
-            "Speed": 9
-        },
-        "CloudConfig": {
-            "CloudLevel": 1400,
-            "CloudHeight": 8000,
-            "CloudConfig": "summer\\04_Overcast_01\\sky.ini"
-        },
-        "CloudDescription": "overcast skies",
-        "TemperatureDescription": "cold",
-        "Temperature": 2
-    },
-    "WeatherTomorrow": {
-        "WindDescription": "Moderate winds from the west (251\u00B0, ~5m/s)",
-        "WindAtGroundLevel": {
-            "Bearing": 71,
-            "AsStandardWindBearing": 251,
+            "Bearing": 82,
+            "AsStandardWindBearing": 262,
             "Speed": 5
         },
         "CloudConfig": {
-            "CloudLevel": 1400,
-            "CloudHeight": 6000,
-            "CloudConfig": "summer\\03_Heavy_01\\sky.ini"
+            "CloudLevel": 1224,
+            "CloudHeight": 0,
+            "CloudConfig": "summer\\00_Clear_09\\sky.ini"
         },
-        "CloudDescription": "heavy cloud cover",
-        "TemperatureDescription": "cold",
-        "Temperature": 4
+        "CloudDescription": "clear skies",
+        "TemperatureDescription": "hot",
+        "Temperature": 25
     },
-    "AlliedControlledPointsAtStart": 33,
-    "AxisControlledPointsAtStart": 28,
-    "AlliedControlledPointsToday": 33,
+    "WeatherTomorrow": {
+        "WindDescription": "Strong winds from the east (100\u00B0, ~9m/s)",
+        "WindAtGroundLevel": {
+            "Bearing": 280,
+            "AsStandardWindBearing": 100,
+            "Speed": 9
+        },
+        "CloudConfig": {
+            "CloudLevel": 936,
+            "CloudHeight": 4000,
+            "CloudConfig": "summer\\04_Overcast_00\\sky.ini"
+        },
+        "CloudDescription": "overcast skies",
+        "TemperatureDescription": "warm",
+        "Temperature": 23
+    },
+    "AlliedControlledPointsAtStart": 12,
+    "AxisControlledPointsAtStart": 32,
+    "AlliedControlledPointsToday": 12,
     "AxisControlledPointsToday": 28,
-    "AlliedSupplyToday": 6700,
-    "AxisSupplyToday": 5700,
+    "AlliedSupplyToday": 1912,
+    "AxisSupplyToday": 4948,
     "Airfields": [{
-            "Name": "Dunsfold",
-            "Coalition": "Allies",
-            "Country": "United States",
-            "Grid": 411,
-            "SupplyLevel": 200,
-            "RunwayBearing": 246,
-            "RunwayIsConcrete": true,
-            "AvailableAirframes": [{
-                    "Type": "a20b",
-                    "ReadableName": "A-20",
-                    "ColloquialName": "Havoc",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "p47d22",
-                    "ReadableName": "P-47-D-22",
-                    "ColloquialName": "Thunderbolt",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "p38j25",
-                    "ReadableName": "P-38",
-                    "ColloquialName": "Lightning",
-                    "NumberAvailable": 16
-                }
-            ]
-        },
-        {
-            "Name": "Deanland",
+            "Name": "Beaumont Le Roger",
             "Coalition": "Axis",
             "Country": "Germany",
-            "Grid": 716,
+            "Grid": 2720,
             "SupplyLevel": 200,
-            "RunwayBearing": 328,
-            "RunwayIsConcrete": true,
-            "AvailableAirframes": []
-        },
-        {
-            "Name": "Horne",
-            "Coalition": "Allies",
-            "Country": "United States",
-            "Grid": 414,
-            "SupplyLevel": 200,
-            "RunwayBearing": 226,
-            "RunwayIsConcrete": true,
+            "RunwayBearing": 325,
+            "RunwayIsConcrete": false,
             "AvailableAirframes": [{
-                    "Type": "a20b",
-                    "ReadableName": "A-20",
-                    "ColloquialName": "Havoc",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "p47d22",
-                    "ReadableName": "P-47-D-22",
-                    "ColloquialName": "Thunderbolt",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "p38j25",
-                    "ReadableName": "P-38",
-                    "ColloquialName": "Lightning",
-                    "NumberAvailable": 8
-                }
-            ]
-        },
-        {
-            "Name": "Staplehurst",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 419,
-            "SupplyLevel": 200,
-            "RunwayBearing": 275,
-            "RunwayIsConcrete": true,
-            "AvailableAirframes": [{
-                    "Type": "bf109e7",
-                    "ReadableName": "109 E-7",
-                    "ColloquialName": "Emil",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "fw190a3",
-                    "ReadableName": "190 A-3",
-                    "ColloquialName": "Focke-Wulf",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "fw190a5",
-                    "ReadableName": "190 A-5",
-                    "ColloquialName": "Focke-Wulf",
-                    "NumberAvailable": 16
-                },
-                {
                     "Type": "fw190a6",
                     "ReadableName": "190 A-6",
-                    "ColloquialName": "Focke-Wulf",
-                    "NumberAvailable": 16
+                    "ColloquialName": "Anton",
+                    "NumberAvailable": -1
                 },
                 {
                     "Type": "fw190a8",
                     "ReadableName": "190 A-8",
                     "ColloquialName": "Anton",
-                    "NumberAvailable": 8
+                    "NumberAvailable": -1
                 },
                 {
-                    "Type": "ju88c6",
-                    "ReadableName": "Ju 88 C6",
-                    "ColloquialName": "Schnellbomber",
-                    "NumberAvailable": 20
+                    "Type": "bf109g6late",
+                    "ReadableName": "109 G-6late",
+                    "ColloquialName": "Gustav",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "bf109g14",
+                    "ReadableName": "109 G-14",
+                    "ColloquialName": "Gustav",
+                    "NumberAvailable": 16
                 },
                 {
                     "Type": "bf110g2",
                     "ReadableName": "110 G-2",
                     "ColloquialName": "Zerst\u00F6rer",
-                    "NumberAvailable": 20
+                    "NumberAvailable": -1
                 },
                 {
                     "Type": "me410a1",
                     "ReadableName": "Me 410",
                     "ColloquialName": "Hornisse",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "bf109g6as",
+                    "ReadableName": "109 G-6AS",
+                    "ColloquialName": "Gustav",
                     "NumberAvailable": 16
-                }
-            ]
-        },
-        {
-            "Name": "Brenzett",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 521,
-            "SupplyLevel": 200,
-            "RunwayBearing": 267,
-            "RunwayIsConcrete": true,
-            "AvailableAirframes": [{
-                    "Type": "bf109e7",
-                    "ReadableName": "109 E-7",
-                    "ColloquialName": "Emil",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "fw190a3",
-                    "ReadableName": "190 A-3",
-                    "ColloquialName": "Focke-Wulf",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "fw190a5",
-                    "ReadableName": "190 A-5",
-                    "ColloquialName": "Focke-Wulf",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "fw190a6",
-                    "ReadableName": "190 A-6",
-                    "ColloquialName": "Focke-Wulf",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "fw190a8",
-                    "ReadableName": "190 A-8",
-                    "ColloquialName": "Anton",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "he111h6",
-                    "ReadableName": "111 H-6",
-                    "ColloquialName": "Heinkel",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "he111h16",
-                    "ReadableName": "111 H-16",
-                    "ColloquialName": "Heinkel",
-                    "NumberAvailable": -1
                 },
                 {
                     "Type": "ju88a4",
@@ -235,6 +111,102 @@
                     "ReadableName": "Ju 88 C6",
                     "ColloquialName": "Schnellbomber",
                     "NumberAvailable": -1
+                }
+            ]
+        },
+        {
+            "Name": "Carpiquet",
+            "Coalition": "Allies",
+            "Country": "Great Britain",
+            "Grid": 2611,
+            "SupplyLevel": 50,
+            "RunwayBearing": 306,
+            "RunwayIsConcrete": true,
+            "AvailableAirframes": []
+        },
+        {
+            "Name": "Cretteville",
+            "Coalition": "Allies",
+            "Country": "Great Britain",
+            "Grid": 2405,
+            "SupplyLevel": 200,
+            "RunwayBearing": 222,
+            "RunwayIsConcrete": true,
+            "AvailableAirframes": [{
+                    "Type": "spitfiremkixc",
+                    "ReadableName": "Spitfire IXc",
+                    "ColloquialName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "typhoonmkib",
+                    "ReadableName": "Typhoon",
+                    "ColloquialName": "Tiffy",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "spitfiremkixe",
+                    "ReadableName": "Spitfire IXe",
+                    "ColloquialName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "p51b5",
+                    "ReadableName": "P-51b",
+                    "ColloquialName": "Mustang",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "a20b",
+                    "ReadableName": "A-20",
+                    "ColloquialName": "Havoc",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "mosquitofbmkvis2",
+                    "ReadableName": "Mosquito",
+                    "ColloquialName": "Mossie",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "c47a",
+                    "ReadableName": "C-47",
+                    "ColloquialName": "Dakota",
+                    "NumberAvailable": 4
+                }
+            ]
+        },
+        {
+            "Name": "Le Havre Octeville",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 2215,
+            "SupplyLevel": 159,
+            "RunwayBearing": 273,
+            "RunwayIsConcrete": false,
+            "AvailableAirframes": [{
+                    "Type": "fw190a6",
+                    "ReadableName": "190 A-6",
+                    "ColloquialName": "Anton",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "fw190a8",
+                    "ReadableName": "190 A-8",
+                    "ColloquialName": "Anton",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "bf109g6late",
+                    "ReadableName": "109 G-6late",
+                    "ColloquialName": "Gustav",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "bf109g14",
+                    "ReadableName": "109 G-14",
+                    "ColloquialName": "Gustav",
+                    "NumberAvailable": 16
                 },
                 {
                     "Type": "bf110g2",
@@ -246,249 +218,13 @@
                     "Type": "me410a1",
                     "ReadableName": "Me 410",
                     "ColloquialName": "Hornisse",
-                    "NumberAvailable": 20
-                }
-            ]
-        },
-        {
-            "Name": "Chailey",
-            "Coalition": "Allies",
-            "Country": "Great Britain",
-            "Grid": 614,
-            "SupplyLevel": 200,
-            "RunwayBearing": 257,
-            "RunwayIsConcrete": true,
-            "AvailableAirframes": [{
-                    "Type": "spitfiremkixc",
-                    "ReadableName": "Spitfire IXc",
-                    "ColloquialName": "Spitfire",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "spitfiremkvb",
-                    "ReadableName": "Spitfire Vb",
-                    "ColloquialName": "Spitfire",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "hurricanemkii",
-                    "ReadableName": "Hurricane",
-                    "ColloquialName": "Hurricane",
-                    "NumberAvailable": 20
-                }
-            ]
-        },
-        {
-            "Name": "Coolham",
-            "Coalition": "Allies",
-            "Country": "Great Britain",
-            "Grid": 612,
-            "SupplyLevel": 200,
-            "RunwayBearing": 289,
-            "RunwayIsConcrete": true,
-            "AvailableAirframes": [{
-                    "Type": "spitfiremkixc",
-                    "ReadableName": "Spitfire IXc",
-                    "ColloquialName": "Spitfire",
                     "NumberAvailable": -1
                 },
                 {
-                    "Type": "spitfiremkixe",
-                    "ReadableName": "Spitfire IXe",
-                    "ColloquialName": "Spitfire",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "spitfiremkvb",
-                    "ReadableName": "Spitfire Vb",
-                    "ColloquialName": "Spitfire",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "hurricanemkii",
-                    "ReadableName": "Hurricane",
-                    "ColloquialName": "Hurricane",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "mosquitofbmkvis2",
-                    "ReadableName": "Mosquito",
-                    "ColloquialName": "Mossie",
+                    "Type": "bf109g6as",
+                    "ReadableName": "109 G-6AS",
+                    "ColloquialName": "Gustav",
                     "NumberAvailable": 16
-                },
-                {
-                    "Type": "typhoonmkib",
-                    "ReadableName": "Typhoon",
-                    "ColloquialName": "Tiffy",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "a20b",
-                    "ReadableName": "A-20",
-                    "ColloquialName": "Havoc",
-                    "NumberAvailable": -1
-                }
-            ]
-        },
-        {
-            "Name": "Detling",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 219,
-            "SupplyLevel": 200,
-            "RunwayBearing": 223,
-            "RunwayIsConcrete": false,
-            "AvailableAirframes": [{
-                    "Type": "bf109e7",
-                    "ReadableName": "109 E-7",
-                    "ColloquialName": "Emil",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "fw190a3",
-                    "ReadableName": "190 A-3",
-                    "ColloquialName": "Focke-Wulf",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "fw190a5",
-                    "ReadableName": "190 A-5",
-                    "ColloquialName": "Focke-Wulf",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "fw190a6",
-                    "ReadableName": "190 A-6",
-                    "ColloquialName": "Focke-Wulf",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "fw190a8",
-                    "ReadableName": "190 A-8",
-                    "ColloquialName": "Anton",
-                    "NumberAvailable": 8
-                },
-                {
-                    "Type": "ju88c6",
-                    "ReadableName": "Ju 88 C6",
-                    "ColloquialName": "Schnellbomber",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "bf110g2",
-                    "ReadableName": "110 G-2",
-                    "ColloquialName": "Zerst\u00F6rer",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "me410a1",
-                    "ReadableName": "Me 410",
-                    "ColloquialName": "Hornisse",
-                    "NumberAvailable": 16
-                }
-            ]
-        },
-        {
-            "Name": "Ford",
-            "Coalition": "Allies",
-            "Country": "Great Britain",
-            "Grid": 710,
-            "SupplyLevel": 200,
-            "RunwayBearing": 324,
-            "RunwayIsConcrete": true,
-            "AvailableAirframes": [{
-                    "Type": "spitfiremkixc",
-                    "ReadableName": "Spitfire IXc",
-                    "ColloquialName": "Spitfire",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "spitfiremkixe",
-                    "ReadableName": "Spitfire IXe",
-                    "ColloquialName": "Spitfire",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "spitfiremkvb",
-                    "ReadableName": "Spitfire Vb",
-                    "ColloquialName": "Spitfire",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "hurricanemkii",
-                    "ReadableName": "Hurricane",
-                    "ColloquialName": "Hurricane",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "mosquitofbmkvis2",
-                    "ReadableName": "Mosquito",
-                    "ColloquialName": "Mossie",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "typhoonmkib",
-                    "ReadableName": "Typhoon",
-                    "ColloquialName": "Tiffy",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "a20b",
-                    "ReadableName": "A-20",
-                    "ColloquialName": "Havoc",
-                    "NumberAvailable": -1
-                }
-            ]
-        },
-        {
-            "Name": "Hawkinge",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 423,
-            "SupplyLevel": 200,
-            "RunwayBearing": 236,
-            "RunwayIsConcrete": false,
-            "AvailableAirframes": [{
-                    "Type": "bf109e7",
-                    "ReadableName": "109 E-7",
-                    "ColloquialName": "Emil",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "fw190a3",
-                    "ReadableName": "190 A-3",
-                    "ColloquialName": "Focke-Wulf",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "fw190a5",
-                    "ReadableName": "190 A-5",
-                    "ColloquialName": "Focke-Wulf",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "fw190a6",
-                    "ReadableName": "190 A-6",
-                    "ColloquialName": "Focke-Wulf",
-                    "NumberAvailable": 20
-                },
-                {
-                    "Type": "fw190a8",
-                    "ReadableName": "190 A-8",
-                    "ColloquialName": "Anton",
-                    "NumberAvailable": 16
-                },
-                {
-                    "Type": "he111h6",
-                    "ReadableName": "111 H-6",
-                    "ColloquialName": "Heinkel",
-                    "NumberAvailable": -1
-                },
-                {
-                    "Type": "he111h16",
-                    "ReadableName": "111 H-16",
-                    "ColloquialName": "Heinkel",
-                    "NumberAvailable": -1
                 },
                 {
                     "Type": "ju88a4",
@@ -501,6 +237,114 @@
                     "ReadableName": "Ju 88 C6",
                     "ColloquialName": "Schnellbomber",
                     "NumberAvailable": -1
+                }
+            ]
+        },
+        {
+            "Name": "Lonrai",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 3415,
+            "SupplyLevel": 11,
+            "RunwayBearing": 235,
+            "RunwayIsConcrete": false,
+            "AvailableAirframes": [{
+                    "Type": "fw190a6",
+                    "ReadableName": "190 A-6",
+                    "ColloquialName": "Anton",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "fw190a8",
+                    "ReadableName": "190 A-8",
+                    "ColloquialName": "Anton",
+                    "NumberAvailable": 20
+                }
+            ]
+        },
+        {
+            "Name": "Maupertus",
+            "Coalition": "Allies",
+            "Country": "Great Britain",
+            "Grid": 2004,
+            "SupplyLevel": 200,
+            "RunwayBearing": 293,
+            "RunwayIsConcrete": true,
+            "AvailableAirframes": [{
+                    "Type": "spitfiremkixc",
+                    "ReadableName": "Spitfire IXc",
+                    "ColloquialName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "typhoonmkib",
+                    "ReadableName": "Typhoon",
+                    "ColloquialName": "Tiffy",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "spitfiremkixe",
+                    "ReadableName": "Spitfire IXe",
+                    "ColloquialName": "Spitfire",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "p51b5",
+                    "ReadableName": "P-51b",
+                    "ColloquialName": "Mustang",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "a20b",
+                    "ReadableName": "A-20",
+                    "ColloquialName": "Havoc",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "mosquitofbmkvis2",
+                    "ReadableName": "Mosquito",
+                    "ColloquialName": "Mossie",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "c47a",
+                    "ReadableName": "C-47",
+                    "ColloquialName": "Dakota",
+                    "NumberAvailable": 4
+                }
+            ]
+        },
+        {
+            "Name": "Triqueville",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 2418,
+            "SupplyLevel": 176,
+            "RunwayBearing": 220,
+            "RunwayIsConcrete": false,
+            "AvailableAirframes": [{
+                    "Type": "fw190a6",
+                    "ReadableName": "190 A-6",
+                    "ColloquialName": "Anton",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "fw190a8",
+                    "ReadableName": "190 A-8",
+                    "ColloquialName": "Anton",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "bf109g6late",
+                    "ReadableName": "109 G-6late",
+                    "ColloquialName": "Gustav",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "bf109g14",
+                    "ReadableName": "109 G-14",
+                    "ColloquialName": "Gustav",
+                    "NumberAvailable": 16
                 },
                 {
                     "Type": "bf110g2",
@@ -512,258 +356,5702 @@
                     "Type": "me410a1",
                     "ReadableName": "Me 410",
                     "ColloquialName": "Hornisse",
-                    "NumberAvailable": 20
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "bf109g6as",
+                    "ReadableName": "109 G-6AS",
+                    "ColloquialName": "Gustav",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "ju88a4",
+                    "ReadableName": "Ju 88 A4",
+                    "ColloquialName": "Schnellbomber",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "ju88c6",
+                    "ReadableName": "Ju 88 C6",
+                    "ColloquialName": "Schnellbomber",
+                    "NumberAvailable": -1
                 }
             ]
         },
         {
-            "Name": "West Malling",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 217,
-            "SupplyLevel": 200,
-            "RunwayBearing": 256,
+            "Name": "Pontorson",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 3304,
+            "SupplyLevel": 189,
+            "RunwayBearing": 253,
             "RunwayIsConcrete": true,
-            "AvailableAirframes": []
+            "AvailableAirframes": [{
+                    "Type": "p47d22",
+                    "ReadableName": "P-47-D-22",
+                    "ColloquialName": "Thunderbolt",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "p47d28",
+                    "ReadableName": "P-47-D-28",
+                    "ColloquialName": "Thunderbolt",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "p38j25",
+                    "ReadableName": "P-38",
+                    "ColloquialName": "Lightning",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "a20b",
+                    "ReadableName": "A-20",
+                    "ColloquialName": "Havoc",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "p51b5",
+                    "ReadableName": "P-51b",
+                    "ColloquialName": "Mustang",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "p51d15",
+                    "ReadableName": "P-51d",
+                    "ColloquialName": "Mustang",
+                    "NumberAvailable": 8
+                },
+                {
+                    "Type": "c47a",
+                    "ReadableName": "C-47",
+                    "ColloquialName": "Dakota",
+                    "NumberAvailable": 4
+                }
+            ]
+        },
+        {
+            "Name": "La Vielle",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 2608,
+            "SupplyLevel": 156,
+            "RunwayBearing": 186,
+            "RunwayIsConcrete": true,
+            "AvailableAirframes": [{
+                    "Type": "p47d22",
+                    "ReadableName": "P-47-D-22",
+                    "ColloquialName": "Thunderbolt",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "p47d28",
+                    "ReadableName": "P-47-D-28",
+                    "ColloquialName": "Thunderbolt",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "p38j25",
+                    "ReadableName": "P-38",
+                    "ColloquialName": "Lightning",
+                    "NumberAvailable": 20
+                },
+                {
+                    "Type": "a20b",
+                    "ReadableName": "A-20",
+                    "ColloquialName": "Havoc",
+                    "NumberAvailable": -1
+                },
+                {
+                    "Type": "p51b5",
+                    "ReadableName": "P-51b",
+                    "ColloquialName": "Mustang",
+                    "NumberAvailable": 16
+                },
+                {
+                    "Type": "p51d15",
+                    "ReadableName": "P-51d",
+                    "ColloquialName": "Mustang",
+                    "NumberAvailable": 8
+                },
+                {
+                    "Type": "c47a",
+                    "ReadableName": "C-47",
+                    "ColloquialName": "Dakota",
+                    "NumberAvailable": 4
+                }
+            ]
         }
     ],
     "Objectives": [{
-            "Name": "Thames River Defences",
-            "Coalition": "Allies",
-            "Country": "United States",
-            "Grid": 112,
-            "SupplyLevel": 200,
+            "Name": "Saint-Valery-en-Caux Flak School",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 1820,
+            "SupplyLevel": 100,
+            "MaxSupplyLevel": 100,
+            "Type": "SMALL"
+        },
+        {
+            "Name": "Bolbec Aviation Fuel Logistics",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 2118,
+            "SupplyLevel": 141,
             "MaxSupplyLevel": 200,
             "Type": "MEDIUM"
         },
         {
-            "Name": "Chatham Dockyards",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 118,
-            "SupplyLevel": 300,
+            "Name": "Arromanches Mulberry B",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 2410,
+            "SupplyLevel": 99,
             "MaxSupplyLevel": 300,
             "Type": "STRATEGIC"
         },
         {
-            "Name": "Sheppy Coastal Battery",
+            "Name": "Cabourg Coastal Defences",
             "Coalition": "Axis",
             "Country": "Germany",
-            "Grid": 121,
-            "SupplyLevel": 200,
-            "MaxSupplyLevel": 200,
-            "Type": "MEDIUM"
-        },
-        {
-            "Name": "Herne Bay Mustering Point",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 123,
-            "SupplyLevel": 100,
-            "MaxSupplyLevel": 100,
-            "Type": "SMALL"
-        },
-        {
-            "Name": "Orpington Defences",
-            "Coalition": "Allies",
-            "Country": "United States",
-            "Grid": 214,
-            "SupplyLevel": 200,
-            "MaxSupplyLevel": 200,
-            "Type": "MEDIUM"
-        },
-        {
-            "Name": "Sevenoaks Warehousing",
-            "Coalition": "Allies",
-            "Country": "United States",
-            "Grid": 216,
-            "SupplyLevel": 200,
-            "MaxSupplyLevel": 200,
-            "Type": "MEDIUM"
-        },
-        {
-            "Name": "Canterbury Tannery",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 222,
-            "SupplyLevel": 200,
-            "MaxSupplyLevel": 200,
-            "Type": "MEDIUM"
-        },
-        {
-            "Name": "Guildford Rail Depot",
-            "Coalition": "Allies",
-            "Country": "United States",
-            "Grid": 311,
-            "SupplyLevel": 200,
-            "MaxSupplyLevel": 200,
-            "Type": "MEDIUM"
-        },
-        {
-            "Name": "Dorking Rail Depot",
-            "Coalition": "Allies",
-            "Country": "United States",
-            "Grid": 312,
-            "SupplyLevel": 200,
-            "MaxSupplyLevel": 200,
-            "Type": "MEDIUM"
-        },
-        {
-            "Name": "Chairing Railway Station",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 320,
-            "SupplyLevel": 200,
-            "MaxSupplyLevel": 200,
-            "Type": "MEDIUM"
-        },
-        {
-            "Name": "Ashford Defences",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 321,
-            "SupplyLevel": 200,
-            "MaxSupplyLevel": 200,
-            "Type": "MEDIUM"
-        },
-        {
-            "Name": "Tunbridge Wells Rail Depot",
-            "Coalition": "Allies",
-            "Country": "United States",
-            "Grid": 416,
-            "SupplyLevel": 200,
-            "MaxSupplyLevel": 200,
-            "Type": "MEDIUM"
-        },
-        {
-            "Name": "Crawley Lakeside Encampment",
-            "Coalition": "Allies",
-            "Country": "Great Britain",
-            "Grid": 513,
-            "SupplyLevel": 100,
-            "MaxSupplyLevel": 100,
-            "Type": "SMALL"
-        },
-        {
-            "Name": "Hawkhurst Armour Concentration",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 518,
-            "SupplyLevel": 200,
-            "MaxSupplyLevel": 200,
-            "Type": "MEDIUM"
-        },
-        {
-            "Name": "Hythe Coastal Defences",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 522,
-            "SupplyLevel": 200,
-            "MaxSupplyLevel": 200,
-            "Type": "MEDIUM"
-        },
-        {
-            "Name": "River Arun Crossing Point",
-            "Coalition": "Allies",
-            "Country": "Great Britain",
-            "Grid": 611,
-            "SupplyLevel": 200,
-            "MaxSupplyLevel": 200,
-            "Type": "MEDIUM"
-        },
-        {
-            "Name": "Heathfield Munitions Depot",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 617,
-            "SupplyLevel": 100,
-            "MaxSupplyLevel": 100,
-            "Type": "SMALL"
-        },
-        {
-            "Name": "Rye Submarine Pens",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 620,
-            "SupplyLevel": 100,
-            "MaxSupplyLevel": 100,
-            "Type": "SMALL"
-        },
-        {
-            "Name": "Dungeness Oil Pipeline",
-            "Coalition": "Axis",
-            "Country": "Germany",
-            "Grid": 621,
-            "SupplyLevel": 200,
-            "MaxSupplyLevel": 200,
-            "Type": "MEDIUM"
-        },
-        {
-            "Name": "Brighton Port Railhead",
-            "Coalition": "Allies",
-            "Country": "Great Britain",
-            "Grid": 714,
-            "SupplyLevel": 300,
+            "Grid": 2414,
+            "SupplyLevel": 251,
             "MaxSupplyLevel": 300,
             "Type": "STRATEGIC"
         },
         {
-            "Name": "Hastings Coastal Defences",
+            "Name": "Lisieux Ball Bearing Factory",
             "Coalition": "Axis",
             "Country": "Germany",
-            "Grid": 719,
-            "SupplyLevel": 200,
+            "Grid": 2616,
+            "SupplyLevel": 216,
+            "MaxSupplyLevel": 300,
+            "Type": "STRATEGIC"
+        },
+        {
+            "Name": "Coutances Road and Rail Junction",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 2704,
+            "SupplyLevel": 109,
             "MaxSupplyLevel": 200,
             "Type": "MEDIUM"
         },
         {
-            "Name": "Eastbourne Port Railhead",
+            "Name": "Villedieu Fuel Depot",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 2906,
+            "SupplyLevel": 280,
+            "MaxSupplyLevel": 300,
+            "Type": "STRATEGIC"
+        },
+        {
+            "Name": "Vire Command And Logistics",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 2908,
+            "SupplyLevel": 275,
+            "MaxSupplyLevel": 300,
+            "Type": "STRATEGIC"
+        },
+        {
+            "Name": "Conde sur Noireau Tank Repair Station",
+            "Coalition": "Neutral",
+            "Country": "Neutral",
+            "Grid": 2911,
+            "SupplyLevel": 0,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Falaise Encampment",
+            "Coalition": "Neutral",
+            "Country": "Neutral",
+            "Grid": 2913,
+            "SupplyLevel": 0,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Vimoutiers Sawmill and Logging Station",
             "Coalition": "Axis",
             "Country": "Germany",
-            "Grid": 817,
-            "SupplyLevel": 300,
+            "Grid": 2916,
+            "SupplyLevel": 151,
+            "MaxSupplyLevel": 300,
+            "Type": "STRATEGIC"
+        },
+        {
+            "Name": "L Aigle Supply Dump",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 3019,
+            "SupplyLevel": 153,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Argentan Switching Yard",
+            "Coalition": "Neutral",
+            "Country": "Neutral",
+            "Grid": 3114,
+            "SupplyLevel": 0,
+            "MaxSupplyLevel": 300,
+            "Type": "STRATEGIC"
+        },
+        {
+            "Name": "Saint Hilaire River Crossing",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 3207,
+            "SupplyLevel": 12,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "La Ferte Mace Troop Encampment",
+            "Coalition": "Neutral",
+            "Country": "Neutral",
+            "Grid": 3212,
+            "SupplyLevel": 0,
+            "MaxSupplyLevel": 300,
+            "Type": "STRATEGIC"
+        },
+        {
+            "Name": "Domfront HFDF Site",
+            "Coalition": "Allies",
+            "Country": "United States",
+            "Grid": 3309,
+            "SupplyLevel": 76,
+            "MaxSupplyLevel": 200,
+            "Type": "MEDIUM"
+        },
+        {
+            "Name": "Perche HFDF Testing Facility",
+            "Coalition": "Axis",
+            "Country": "Germany",
+            "Grid": 3319,
+            "SupplyLevel": 89,
             "MaxSupplyLevel": 300,
             "Type": "STRATEGIC"
         }
     ],
     "PilotStreaksAllied": [{
-            "Name": "Alonzo",
-            "SuccessfulMissionStreak": 3,
-            "StreakBonus": 0.3,
+            "Name": "Hexpert07",
+            "StreakBonus": 0,
             "Coalition": "Allies"
         },
         {
-            "Name": "Haluter",
-            "SuccessfulMissionStreak": 5,
+            "Name": "slid3r",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "PNPL-EXPRSEcho-64",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "MDC5000",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "310_Monty",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FOX3_GunMan",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=[W-H]=dziki",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "RH_Turbo",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_Flowbk",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "No610Johnny",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "bloodlord73",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "zeroocool2557",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Otto_bann",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "356thFS_Leifr",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_BadgerOT",
+            "StreakBonus": 0.4,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "RH_Killer",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_Duck_of_Death",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_rabbid",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_Biffas",
+            "StreakBonus": 0.4,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_Dragon-Kid",
+            "StreakBonus": 0.4,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Derfety",
             "StreakBonus": 0.5,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "radcod",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FloPluter",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "EMS_SKYwhiz",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "356thFS_ItsjustDillon",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "EMS_Viper_VR",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_Medic",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "356thFS_Red_Panda",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=LD=Stache",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "356thFS_Mowaca",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "356thFS_Oscarr",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "StaB/Tomio_VR***",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "356thFS_Jagged-Fel",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ROCKET_KNUT",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "C6_jax",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Grosminet",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "356thFS_OldBoyRob",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "XL8_CZ",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Penguin_22",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "356thFS_ZeroRemorse",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_Defender",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "IRRE_Temeraire-",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Talon_",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "EMS2/4_Cyrene",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "EMS_MuadDib",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "356thFS_Rails",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Roparzh71",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Oscar-",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_Lancaster",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "49_Steele_88",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ultonia",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "C6_PetiO----Twitch",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "356thFS_Victorious501",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "C6_Geooorges_VR",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "gunnyr822",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Barnacles",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "kiwi_d",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_Biggles*266",
+            "CurrentStreak": 10,
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_Arrowshaft",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "IRRE_CaMeL_BaG",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "EAF51_Shard",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "macmilan",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_HillBill",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Trivian",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ardillacompany",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=LD=dhyran",
+            "StreakBonus": 0.4,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "EMS_Kurtis_N",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "434th_Olds_",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FBeeSe",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Adalwolf_schwere",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "custardslug",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "timii",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "IRRE_Zobby1000",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Kerhuon",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "DanielZockt",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Player2852",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "178th_VVS_Roman",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "TheAngryGamer_VR",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "BakebreansMr_Pasqual95",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SYN_Semispud",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FBPoocher88",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "OctuplePants",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Z3_",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Corvy_",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Smigol",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SYN_Mugue",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "TCW_Brzi_Joe",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Xplaneonly",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "defaultPenguin",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Lopey_907",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "flyingpolonez",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "BRSQD_Pendiuk78",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "422nd_Welter_",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "422nd_Konnel",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "[RCAF]WaldoGumbs",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Boris_Grishenko",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "IFS_GisliEinar",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Veni-Vidi-Vici33",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ishangurung324",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "EMS_Hammer_Breizh",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Arierref",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "422nd_RedSkull",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Player-329465",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "422nd_Barros",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Player-306847",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Mike_East",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "69TH_BIGHOG",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "57FG_Bruno-Stachel",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "JohnnyRocket",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "[CPT]Nem0",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "3./JG3_Kobra_",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "RileyReid",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Colin_the_Fat",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_Wind",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "49Topper",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "BRSQD_Novack",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "hank1011111",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "49Zardoz",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SUFCbladePompeyblade",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Capt_Teddy_Bear",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "antonio_v",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "TheBOMBRDER4",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_Wamba",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "eatinbeefnachos",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "tiezhu",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "TXAG18ShotgunColie",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "49Creepin",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "49Armed",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "TacticalTexan",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Cluck",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "renjy",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_Ocelot",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Thunderstruck7",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FREDTHESQUIRRLL",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Igdina",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "WillyInTheWild",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=ILS=_EDiors_23",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Fisc",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Player-304997",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Shtkicker13",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Spooky85",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "356thFS_Piranha",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=ILS=_SiJi_28",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "homiej",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Dinghao007",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "glider42",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "MrBailif",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "skkfflsg",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Genaro",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SYN_Repent",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "the_emperor",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=EXPEND=Dendro",
+            "StreakBonus": 0.4,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Leady_Brickov",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=WBR=_Bogie6",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Diomedes-Jones",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Dudley_Hill",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "O_Smiladon",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "LF_Mark_Krieger",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Bim_bo",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ultrapug",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "sam_tpr",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "cumulus",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "TRUPLAYAZ80",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=AKR=HiiiiiiiiVR",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "RAT_12342",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Mauler",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ghost_warrior",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Peko4Love",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "HairyBrenndog",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "LF_BULLET21",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "butter_5",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "BillyLiksom",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "reigninblood399",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "PiNKSHiT",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=TT=koma",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "S_H_S",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Manoylenko",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Player-131758",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=TT=Faker",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ribinski",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "49Snowmann",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "PugViking",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "anders-and",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FaireyFulmar",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "501-TEX",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Seppelelch",
+            "StreakBonus": 0.5,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Borysiako",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=/WoVi/=kirumovka",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Alonzo",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "TCW_Spear",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "J18_JohnLew",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Moon_Shine51",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "JG300_Hornisze",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "420thMAESTRO",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "chrobry",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "dominigucc",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=VARP=BlackRam",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=WBR=Filbee",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Trxpiin",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Zepp",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=[W-H]=Lucas_P",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=[W-H]=Janus",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Monkeyman",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Sanyo",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "303_dariopl",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_M00se-VR",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Blackzeer",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Skorevych",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Helsinski",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "1PL-Banzai-1Esk",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Algy_266",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_MIDGY",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "1PL-KJ-1Esk",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Nitrous",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Letka_13/Major*",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "1PL-Modzel-2Esk",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "PE_Zunzara",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "friendlybeard",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "LR.Tincannavy",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Letka_13/Franta*",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "--[---MAILMAN----",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_Jordo-Ramsay",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "102nd-YU-Markoni",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "313th][pezman",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "56RAF_Howler_",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "56RAF_phoenix56",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=LD=Pregnant_Nun",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=GEMINI=IngegnerTommy",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "CSW_Eda",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "samthesniper",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=GEMINI=cabal73",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=GEMINI=Eux86",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=GEMINI=Piange87",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Pelegrino91",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Hawkeye_9",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "CSW_Hot_Dog",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "AC500God_Himself",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "56RAF_Bo",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "IRRE_Zorba",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Turloghan",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "TX-Zigrat",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_Bushy",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "CIA_Elanski",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ECV56_Mustang",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Rait",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Player-246707",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "boomerRemover",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "KS989",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "smooth_operator",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "kola",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Sato7",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Player-124389",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Player-330578",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Simple_Simian",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "javelindaddy",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Seltzer",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "InvalidFace",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SW4NKOPOTAMUS",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SCG_geronim0",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "[CPT]Crunch",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "feduk",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "401GATOR",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "cloudhug",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "JD98ns",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ladant",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=IRFC=Rudie",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "[CPT]Bligh",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "NO.20_Krispy_Duck",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=475FG=Brody_",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ruciel",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "vonduck",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Creep",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "[CPT]Rhino06",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "50cal--",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "BEG4_RETRIBUTION",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "III/JG11_Tiger",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "[CPT]Utah_",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "362nd_Thorns",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ryanair_SoupEman",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "MunchieGH",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "CIA_DrJet",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Big_Juicy",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Merro",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "alienXcow",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "barca227bc",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "kodam",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "colewpeters",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Potshot",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_Dohboy",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "stevebud",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "MadManDiego",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "gorbi_gorbov",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "PhantomSamurai85",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "JV44Vakeran",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "jmel79",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "dj5quar3",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "MAJ_Samtastic",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_Wolf",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "myarmy",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "CIA_Metabo",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "BluieFopps",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "floredfish311",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "zhyouhhh",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "TxRanger87",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Charlo-VR",
+            "StreakBonus": 0.4,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Monash",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Player-329534",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Panic",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "movvis",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "102nd-YU-Shraf",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=WBR=_trakr9",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "RichardZhong",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=R4T=KenZed",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=WBR=_greenx",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Free_Franch",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ATAG_Rush",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Magia-Record",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ATAG_Deacon",
+            "StreakBonus": 0.6,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "TermitMK",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Pinguin08",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Roberto0201",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=WBR=_lalassu_",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=WBR=_Duckaa",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "102nd-YU-Duko",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Kaczka38",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "TaskForce404",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "LordSki",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Lilia_Lilis",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "lnserttab",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Antroxy",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Chilli_40",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "jinzo",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "[GOAT]Spoutpout",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=FI=Rabitski",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "VL_Joffski",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "IRRE_LeLong",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "StormOfSteel",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Guasila16Arriu64",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Virutas",
+            "StreakBonus": 0.4,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Wardog-81",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ryanair_buffoon5321",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "IRRE_Fizz41",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ryanair_anners",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=BKS=Des1",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "IRRE_SiSKA",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "IRRE_Genius",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "315_Zelus_PL",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Jiji",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Capt-Avi_Xs1",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "airsheep_VR",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Papay_Moriachok",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "1./SG2_Semyon-",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "cocoloco",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=2/30SH=JackGreenfield",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Krupnski",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "MeoW.Scharfi",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Linkonies",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "1./SG2_John78",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=IRFC=Nialloh",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Itsss_Isaiahhhh",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "2./SG2_assadoc",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "AB1Richard_",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=FI=Blue2",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "IRRE_Fantome25",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=LD=Bemmo",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Knarley-Bob",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_Bobo",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Phalcon",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "30th_Deadthing",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "30th_Wilsson",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "30th_Alberth",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=VARP=Hunter_",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SYN_Ricky",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=VARP=Klingon",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=VARP=Agramer",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=VARP=Kroat",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Gora_",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=VARP=Thor_",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_Combat",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Huckebein88",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "meloncrab",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "bane",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ironman7789",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SilentGun",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "BadgerStripes617",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "1PL-Husar-1Esk",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_DeafBee",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_Patriot32",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "TriXx",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "cRxNugget93",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "XJiggitsX",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "56RAF_Roke",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "EMS_Damn",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "putnik",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Panzerknacker175",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "RodoxBR",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "lohrann",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Player-128142",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "T0nho_Cap",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "MiMiCraCra",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "-=PHX=-Nocter",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "WWDriftwood",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "-=PHX=-Tom-",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_Kroko",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "VA_D0nutenthusiast",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ataque_porcino",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "fattywelch0",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Centi",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Tjognar",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SOB_Stealth",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "belphegor4",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Lawn*Dart",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ok123",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Amorrecton",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Wyeldman",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=KG53=FurorTexanicus",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "NomadActual",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Boomtap",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "colden3025",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FABR_Trajano",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FABR_CpFarias",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FABR_INDIO69",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Gotobar1313",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "CIA_Yankee_",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SemiDesperado",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Maximusss",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Flash42",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Wonderbread",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=IRFC=Mols",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "siyoonpolice",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ali_O",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Vykk_Drago",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=IRFC=majorqc",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=ILS=_Abu_27",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "dakota_kiwi",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Bushmantw",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=WBR=_Simba",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "sedoi*",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "[SMG]10-ka",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "-=SMG=-Nebonyr49",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SicarioTheKiller",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "79FSArctic_Ocean507",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Benny427",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SoupJR",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Hank42",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_FritZ",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Mascot",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "S007",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "boju78",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "kolyn",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_Kam__",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=SF=maestro*",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "szymuflon",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "IRRE_Belmont",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=WBR=toteman",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_SPAM",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "JG300_Tukan",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "JG300_Egon",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "JG300_Carolus",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "kalucheegard",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "AKA_Wiley",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SYN_Mike77",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "OG__Iceman_VR",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SilentOtto",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Cevertt",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "DerShrike",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=LD=Strat",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "OBTBrunov",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Wandalen",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "BDRSYN",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "-=OSA=-mistral921",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "MeMeY",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=FI=Wulfhound",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SYN_Skydance",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "RNoAF_Viking",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=LD=Bulldog*",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SYN_Jedders",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_bangat",
+            "StreakBonus": 0.4,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SqueakyS",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Space_wulf",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "c19580",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "102-YU-JPerro",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_Klutch",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_Jaydog",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "56RAF_Stickz",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_Dickie",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_PersonaNonGrata",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ROFO",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "CIA_Luth",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "VA_BIRDD0G",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ala13_Charlie_",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ala13_Alc0r",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ala13_Juanter",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ala13_Lagger",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ala13_knightcrow",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=DW=_Tauront",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "robin100",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "CoconutTransport",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Commodoreo",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "CSW_Tommy544",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "snakiestpuddle",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "NuclearTeacups",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "EAF51-Polansky",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "JG5Dolby",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "J5_Wolff",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=IRFC=Tunes",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Nikoz",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "GOA_SinVaselina_VR",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ComReo",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "GOA_El-Buitre",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "GOA_Luigi_",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "CoronaMG",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "[ben]dover",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Samuel_Jackson",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FTC_Honk",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "334th_Screwball",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FTC_Swampflare2000",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Mr_Dracula_",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "JBoesJR",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "JBOES",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FTC_Swordfish",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "VonCharlie",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "EdRickenbacker",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Hark",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Grange_nitro",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=SRS=BATAS_",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=SRS=BuHokyp",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=FB=FLint_",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "2./SG2_Wanderfalke_",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "KPblM",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "qazwsxfrancuz14",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=NOSIG=NoPro",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Florida",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ITAF_Eagleeyes",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SCG_Hatchet_Jack",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Hartmann07",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=gRiJ=Oto",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "-=PHX=-Ataque_porcino",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "KOBAC",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "albeiromr",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "ACG_Stu_",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FTC_Aiken",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Stuka_Steve",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=UwU=linkshroom",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "AKA_Goshawk",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=VF-17=WormWood21",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "=FTC=Winged_Kreature",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "BlackSpider",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "LotusHaku",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Bog_Roll",
+            "StreakBonus": 0.2,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "FTC_DerSheriff",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Ala13_Alafer",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SlavicAndCo",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "[250H]MrPorqui",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "SirBoopyDoopy",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "MegaBala",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "NiiranenVR",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Lucasm13",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "56RAF_Nitrous",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Techpilot88",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "otts688",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "bigdad2",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "E69_Blasdelezo",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Soweto-Pepsi",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "PNP-EXPRS_Old-Jedi",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "fiedlerskrzypek",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "IRRE_Axurit",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "MaverickSeth",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "TWHYata_PL",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "CIA_Eagle",
+            "StreakBonus": 0.1,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Player-23452",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "Falconarosan",
+            "StreakBonus": 0,
+            "Coalition": "Allies"
+        },
+        {
+            "Name": "422nd_JOLU",
+            "StreakBonus": 0,
             "Coalition": "Allies"
         }
     ],
     "PilotStreaksAxis": [{
-            "Name": "Sketch",
-            "StreakBonus": 0.5,
-            "SuccessfulMissionStreak": 5,
+            "Name": "Monkeyman",
+            "StreakBonus": 0.1,
             "Coalition": "Axis"
         },
         {
-            "Name": "Talon",
+            "Name": "long-nez",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "starkill76",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "2/JG26_Voykk",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FlyingShark",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "LLv24_Veccu",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "2/JG26_natris",
             "StreakBonus": 0.2,
-            "SuccessfulMissionStreak": 2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "2/JG26_Achileus",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Pelegrino91",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=[V]P=vad-asz",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=X51=Astro_",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=GEMINI=Stoppani",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG5Dolby",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "myarmy",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FGV_799",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "OG__Iceman_VR",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=X51=TheLateBird7",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=X51=Hugh_Mungus",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "2/JG26_Krak",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "2/JG26_rudidlo",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Letka_13/Placek",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "AtamaN_UA",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "102nd-YU-Markoni",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Ataque_porcino",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=[V]P=Mr_Schmitt_VR",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FTC_Marv_s95",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FTC_Davies",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FTC_Prancing",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "bazoka102",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "RufusK",
+            "StreakBonus": 0.5,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "NICOTINA",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Hexpert07",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "HeftigerTyp97",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Letka_13/Algy",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Letka_13/TD_Luky*",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Krupnski",
+            "StreakBonus": 0.4,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "MeoW.Scharfi",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ACG_Dodgy",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=OPFR=the_rooster",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "CloseCall",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ekoksk",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "GVL224",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Zylark",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "leu5",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Enkas",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG27_saffer001",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG27_Mainz",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=TU=Gh0st",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "C6_PetiO----Twitch",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "NeoBlumbo",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "C6_Geooorges_VR",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ACG_Medic",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Godman",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "C6_jax",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Xplaneonly",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Skorevych",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Dukethejuke",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Tschogga",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=VARP=BlackRam",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "E69_Falke_Wolf",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Big_Juicy",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ACG_Muddy",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "StaB/Tomio_VR***",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TheDome",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Diggun",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "E69_DDTang",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ACG_Phoenix",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-BlackCatActual",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ardillacompany",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Apostof",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "III/JG52_Speedwulf77",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "boomerRemover",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "smooth_operator",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "IanMac138",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-63-Roter-Loewe",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-Mack123abc21",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-Darius-Var",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SE.VH_feehcruz12",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SE.VH_aokiryu",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FTC_daHeld",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-cyb3rfly3r",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Ala13_PumuKi_",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Raubvogel",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FBeeSe",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SE.VH_Nhezin",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-=PHX=-Satch",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Ryanair_buffoon5321",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Itsss_Isaiahhhh",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Edu_Guadiana",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SE.VH_Wolfxx",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "III/JG52_Adnara",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-FlyingHutchman",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "DrunkenSaylor",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "samthesniper",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SE.VH_Paulo207",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "peroon77",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SE.VH_V1PER",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SpicyWater",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "fiedlerskrzypek",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SV7_Genrich_Wagner",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "GOA_El-Buitre",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-329465",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Peww",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=TU=flynvrtd",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "kola",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SCG_geronim0",
+            "StreakBonus": 0.4,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Florida",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=TU=Mobius708",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "9./JG54_Krieger06",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SCG_Anzeos",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SCG_Syn",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-124389",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "feduk",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=OPFR=ColNinny",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "renjy",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Capt_Stubing",
+            "StreakBonus": 0.4,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=TU=Creeker",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "MrFreezeman",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Ghost_16",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=TU=Cookie-Monster",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Fata13rror",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "401GATOR",
+            "StreakBonus": 0.4,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Esquire89",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=OPFR=Papa*",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-325861",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "GiereK",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Sato7",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "III/JG52_Lucho",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-326752",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-329716",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "CoronaMG",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Five_By_Five",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Seltzer",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Comrade_Weng",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Dinghao007",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-MickX",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-AP_",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-Wim",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "BigJimRTB",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=VARP=Munster",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG4_Eisbaer",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "102nd-YU-Duko",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-KIWIvolshebnik",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "vpalrs",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=TBAS=B00mer",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "skkfflsg",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=AKR=HiiiiiiiiVR",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-Monkey_fly",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=TBAS=Hawk_3",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=TBAS=STEU3R",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "haluter",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Goat_v2",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=[V]P=Arhont-VR",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=KPFL=Ledze",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-SAW-TheWhiteOwl",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=[V]P=Scoty87HUN",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "gnuu8",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "II/JG11_Puma_VR",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "[GOAT]Spoutpout",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Otto_bann",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Z3_",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "C6_Zorkaiev",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Verreaux",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ITAF_Maven65",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "III/JG52_Leviatan",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=FFR=Madkyte",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=nosig=Oswald109",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "HetzerII",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "carnivori",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ITAF_LG965",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG4_Matthias",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Thunderstruck7",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Larss",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "LarryDevil1",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ACG_Gambler",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ACG_Hermann",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=BKS=Des1",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Atron",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ACG_KitPepper",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "III/JG52_Al-Azraq",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TCW_Chattytumbler",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Vulcan-Raven",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TCW_Rickske",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-=FTC=-TheBishop",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Pampa",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "KOBAC",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=BGS=sotka12",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Eurofighter2000",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "1./JG42flesch",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ACG_Jacob",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=LwS=L_vvVitaliy",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SR-F_Turbonix",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "0w0FwPandaD9",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-=OSA=-zavr",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TCW_Sunjata",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TriXx",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TCW_Brzi_Joe",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Traffic",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG4_Qetzalcoatl",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TyTy69",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG4_Kran",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "[250H]TonySpn",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ITAF_darthr3van",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG300_Marsmann",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "[CPT]Crunch",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG300_Olrik",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG300_Zigzig",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Parte",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG300_Yvon-",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Apfelstrudelz",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Hank42",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG300_Egon",
+            "StreakBonus": 0.4,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TCW_Draco_Sudor",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG300_Sven-",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "LLv24_Kuppis",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "hank1011111",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "iceman_GA",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ACG_La_Crepe",
+            "StreakBonus": 0.4,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "kiddcorsair",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Fly_Flap",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ACG_Sods",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-268329",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TCW_CheekBurek",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "CONWAY92Sqn",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=1stROF=lapwin",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Althaddus",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ACG_FriedericusREX",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "knaller",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "LLv24_Humu",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG4_Pylon",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG4_Storm",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "OctuplePants",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SchizoSmau",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ITAF_Bob-Polansky",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-Major_Fault",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SlavicAndCo",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Super_Tonton",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "rubysoho",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SquidMelons",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Kona_Sato",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JV44Stacko",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=FTC=Winged_Kreature",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "NomadActual",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Thursday_Evening",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "DanielZockt",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "9./JG54_GERMANWOLF",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "9./JG54_Klippel01",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ACG_Goodwin",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ACG_SureShot",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Hazardtime434",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Heniver",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FTC_Princess",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Haidukan",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-earwax",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-246707",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Colin_the_Fat",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Hark",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "PugZilla421",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "9./JG26_Bolzon",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "9./JG26_Black-HawK",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Maximusss",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-Cue-Ball",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FTC_Swampflare2000",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FTC_JM_Johnnie",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG1_Maushake",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "MAJ_Samtastic",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=TU=Baba_Yaga",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "III/JG52_Otto_-I-",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=NiTRO=GOW777",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=PCM=RafaelBrpc",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "tiezhu",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "cocoloco",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JV44Older",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Golden22",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Ruciel",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "dj5quar3",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-brooklynspo",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TARFU_",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Wonderbread",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "9./JG54_PyAge",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FTC_Blake13",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Terren",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "vonduck",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "harley-1",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FFS_atomicmurph",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Ryanair_SoupEman",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Skywarp",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-315686",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Da_God_Emperor",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "KomiyaKaho",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG7_RudeRaptor",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ATAG_Ezzie",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Capt_Teddy_Bear",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "S_H_S",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Dolfomolder",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "KS989",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Vanny33",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Ryanair_ApexDP",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Mohsogol001",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "laurentmonin",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "VonCharlie",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Vykk_Drago",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "movvis",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "lnserttab",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Daffy_Duck",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Vinci",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=SRS=BATAS_",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "PavlikP0210",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "NineClans",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=475FG=Brody_",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TermitMK",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SwissHunter",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "LLv24_Baba_",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "--MUHA--",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Peko4Love",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "kurbads",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "III/JG11_Tiger",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=gRiJ=Jluis",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "C6_PetiO----Youtube",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "C6_LaBomba",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "RazgooL",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Lince11",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FTC_EggMan_",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ITAF_Rani",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Batzet",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "E69_Mijas",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Potshot",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "weaver9919",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "f0uiz",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Ketzoh",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "VNVVRosev",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG5Deadstik",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "REN_DER",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "extralarge",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=TLP=RenanSilvano",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "jaklja1",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TCW_LIQUIDSNAKE",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Jarl_Allen13",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FTC_Storyteller",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Dietrich",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Henki",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FTC_DrKillshot",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Febolix",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "femboy_avery",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "9./JG26_Eiserne_Adler",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=TLP=Pasche",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "VonMarts",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Glorpadorp172",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-332FG-Kami_K220",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Capt-Avi_Xs1",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "EagleHawk",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JV44Sturm",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "MewMewhorizon",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "brobarian",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "[ben]dover",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "LuckyL",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "barfbag",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "IRRE_Belmont",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Tentacle",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SicarioTheKiller",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-SAW-Cheddar_Goblin",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=GW=c451",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Analconda",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Haza",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-330578",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "javelindaddy",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SilentGun",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Simple_Simian",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=ILS=_EDiors_23",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=ILS=_MrChild",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "KissMyGun",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Veni-Vidi-Vici33",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Dog_with_3_legs",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FeuerFliegen",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=IRFC=Learthane",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Denum",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=IRFC=majorqc",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "colden3025",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "kentspatton",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Toxin1",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Faust",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Ali_O",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "glider42",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Sock1710",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Charlo-VR",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JV44Vakeran",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "GER-Psycho",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Grach_",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG300_Tukan",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TboneExpress",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TeufelHunden",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "GiGi-Molineux",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SCG_Schafer",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "EdRickenbacker",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-=OSA=-mistral921",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=SRS=BuHokyp",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ocsplashman3",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG4_JoeFox",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "dakota_kiwi",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Grosminet",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ROCKET_KNUT",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "StormOfSteel",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-301534",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "69th_SNIPES01",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG4_UrSau",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ghost_warrior",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "PE_Zunzara",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Martin",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "szymuflon",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TCW_DirtyMike0330",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TCW_TommyGunn59",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Peskius",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Driffers",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "[THORN]salim68",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Hiker",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "2/JG26_Kopkacik99",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "III/JG52_Sergiem",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Kinetov",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TCW_Kezia",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "2/JG26_Hasic",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "HansBlitz",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "MiMiCraCra",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Letka_13/Toci",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=VARP=Kroat",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Jimboy",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Masterofzen86",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=VARP=Thor_",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "--Gretel--",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=VARP=Hunter_",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=VARP=Klingon",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Rafe_Collins",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Eccho",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-306429",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "15[Span.]/JG51Valalo",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ECV56_Sleeder72",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=RF=Nabuli0",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "kokoOaKY2",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Hensen",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-329478",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Barn-Owl",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Jandro-Esp97",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "313th][pezman",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Drakula",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Centi",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "-=PHX=-Nocter",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ruizyu",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "334th_sputnik66",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=BLW=Novak",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Duff_Phlaps",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=BLW=Bullet",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SCG_ItsDrifter",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "178th_VVS_Roman",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Samuel_Jackson",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SCG_Hatchet_Jack",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "CapitaineDallas",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Hunteroni",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SCG_Darbzy",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SCG_Schneemann",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SCG_Zole29",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "RileyReid",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SCG_CoolWhip",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SCG_Ham_von_Boom",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SOB_Rinfret",
+            "StreakBonus": 0.2,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "TxRanger87",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Lopey_907",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Boris_Grishenko",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "FTC_Slipper45",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-323926",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=TBAS=Blade69",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Angstman",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "2./SG2_Wanderfalke_",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=FB=Said",
+            "StreakBonus": 0.30000000000000004,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=FB=FLint_",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "eddy03012",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "MXEarfazero",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Black-Witch",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Black_Raven",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ITAF_Eagleeyes",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ITAF_Gerry_Lil_Rocket",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "III/JG52_Supongo",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Corstander",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Tallboi",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=NOSIG=NoPro",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "C6_lefuneste",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "C6_Geo",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ZuluActual",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Kobal",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "svenomenal",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "meeres57itsm",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "GRANATENKARL",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Von_Ralph",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG300_Ice",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "=VF-17=WormWood21",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "silverspoon805",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Bemige",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Hawkeye_9",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Mobius",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "ATEAM29",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "C6_Werner_VR",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "JG300_Hammel",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SE.VH_Sui",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "David_IT",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Mjwarning",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Lucas_SB",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "6poundonion",
+            "StreakBonus": 0,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "SE.VH_King_Kobra",
+            "StreakBonus": 0.1,
+            "Coalition": "Axis"
+        },
+        {
+            "Name": "Player-23452",
+            "StreakBonus": 0,
             "Coalition": "Axis"
         }
     ],
     "LossesAllied": {
-        "Aircraft": 1021,
-        "Pilots": 203,
-        "Buildings": 51,
-        "Vehicles": 225,
-        "Ships": 6
+        "Aircraft": 2176,
+        "Pilots": 0,
+        "Buildings": 4915,
+        "Vehicles": 1075,
+        "Ships": 21
     },
     "LossesAxis": {
-        "Aircraft": 824,
-        "Pilots": 179,
-        "Buildings": 67,
-        "Vehicles": 317,
-        "Ships": 12
+        "Aircraft": 2103,
+        "Pilots": 0,
+        "Buildings": 8258,
+        "Vehicles": 895,
+        "Ships": 6
     }
 }

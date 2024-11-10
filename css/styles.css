@@ -8,9 +8,8 @@ body {
   background: linear-gradient(165deg, #121212, #3f3f3f);
 }
 
-/* Highlight row on hover */
 .selectable-row:hover {
-  --bs-table-bg:#434343 !important;
+  --bs-table-bg: #434343 !important;
   --bs-table-striped-bg: #434343 !important;
 }
 
@@ -27,7 +26,7 @@ body {
 
 .nav-text {
   color: #bbbbbb;
-  padding: 5;
+  padding: 5px;
   font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
@@ -42,4 +41,163 @@ body {
 .footer {
   height: 6rem;
   background-color: #616161;
+}
+
+.accordion-background {
+  background-color: #212529 !important;
+  color: white;
+  border: none;
+}
+.accordion-background::after {
+  color: white;
+}
+.accordion-background:focus {
+  color: white;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  background: #bbbbbb;
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+input[type=range]:hover {
+  opacity: 1;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #616161;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+input[type=range]::-webkit-slider-thumb:hover {
+  background: #ffffff;
+}
+input[type=range]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #616161;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  -moz-transition: background-color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+input[type=range]::-moz-range-thumb:hover {
+  background: #ffffff;
+}
+
+div#mapLinkContainer input[type=range] {
+  margin-top: 10px;
+  width: 100%;
+  align-self: center;
+}
+
+#mapLinkContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+#campaignImage {
+  width: 100%;
+  height: auto;
+  position: static;
+}
+
+#dayDisplayOverlay {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 10;
+}
+
+#dayDisplay {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#campaignImage {
+  cursor: pointer;
+}
+
+.modal-xxl {
+  max-width: 98%;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .modal-xxl {
+    max-width: 90%;
+  }
+}
+.supply-bar-container {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: #444;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.supply-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.supply-bar-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.supply-bar-airfeild-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  z-index: 2;
+  pointer-events: none;
 }/*# sourceMappingURL=styles.css.map */

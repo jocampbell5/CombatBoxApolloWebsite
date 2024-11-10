@@ -11,7 +11,9 @@ function displayWarEffort(data) {
   var alliedSupplyToday = data.AlliedSupplyToday;
   var axisSupplyToday = data.AxisSupplyToday;
   var currentDayStateDescription = data.CurrentDayStateDescription;
-  var previousDayEventsDescription = data.PreviousDaysEventsDescription; // Display the data in the respective HTML elements
+  var previousDayEventsDescription = data.PreviousDaysEventsDescription; // Remove the phrase "The current situation" from the description
+
+  currentDayStateDescription = currentDayStateDescription.replace(/<b>The current situation<\/b><br\/><br\/>/, ''); // Display the data in the respective HTML elements
 
   document.getElementById('alliedControlledObjectivesContainer').textContent = alliedControlledObjectives;
   document.getElementById('axisControlledObjectivesContainer').textContent = axisControlledObjectives;
